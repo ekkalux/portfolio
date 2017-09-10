@@ -1,0 +1,97 @@
+html, body {
+  overflow-x: hidden;
+}
+
+/* NAVIGATION BAR */
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+header {
+  background: white;
+/* header shadow */
+  -webkit-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.75);
+/* header shadow */
+}
+
+header::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  float: left;
+  font-family: 'cabin';
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 25px;
+  padding-top: 35px;
+  position: relative;
+}
+
+nav a {
+  color: #232323;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'cabin';
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::after{
+  content: "";
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #A12222;
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* NAVIGATION BAR */
+
+/* HERO */
+
+.container_hero {
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.middle_content {
+  position: absolute;
+  top: 250px;
+  left: 400px;
+}
+
+.middle_content h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'cabin'
+}
+/* HERO */
