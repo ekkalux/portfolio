@@ -1,5 +1,4 @@
 html, body {
-  overflow-x: hidden;
   margin: 0;
   padding: 0;
 }
@@ -80,7 +79,7 @@ body {
   top: 40px;
 }
 
-.button_about {
+.button_contact {
   border-radius: 8px;
   color: #ffffff;
   font-size: 20px;
@@ -90,7 +89,7 @@ body {
   text-decoration: none;
   background: none;
   text-align: center;
-  margin-right: 20px;
+  margin-left: 20px;
   letter-spacing: 1;
   cursor: pointer;
 }
@@ -120,13 +119,16 @@ body {
 
 @media (max-width: 480px) {
   .top_button_container {right: 30px;}
+  .hero_container {margin-top: -80px;}
 }
 
 
 /* ABOUT */
 
 .about {
-  margin-top: 80px;
+  margin-top: 10px;
+  background-color: #1A505A;
+  box-shadow: 0px 5px 4px grey;
 }
 
 .about_container {
@@ -138,54 +140,37 @@ body {
   font-size: 48px;
   font-family: helvetica, sans-serif;
   text-align: center;
-  color: #1A505A;
+  color: #F8F8F8;
   font-weight: 600;
+  padding-top: 50px;
 }
 
 .about_container p {
-  letter-spacing: 4;
-  font-size: 24px;
-  text-align: center;
-  color: #232323;
+  letter-spacing: 3;
+  font-size: 26px;
+  text-align: left;
+  color: #F8F8F8;
   font-family: sans-serif;
-  font-weight:400;
+  font-weight:300;
   width: 60%;
   margin: 0 auto;
   line-height: 50px;
+  padding-bottom: 50px;
 }
 
-.about_button_container {
-  text-align: center;
-  margin-top: 40px;
+@media (max-width: 480px) {
+  .about_container p{text-align: center;}
+  .about {margin-top: 650px;}
 }
 
-.about_button_container p {
-  letter-spacing: 4;
-  font-size: 24px;
-  text-align: center;
-  color: #232323;
-  font-family: sans-serif;
-  font-weight:400;
-  margin-top: 80px;
-  width: 60%;
-  margin: 0 auto;
-  line-height: 40px;
+@media (min-width: 480px) and (max-width: 768px) {
+  .about {margin-top: 750px;}
+  .about_container p {text-align: center;}
 }
 
-.button_contact {
-  border-radius: 8px;
-  color: #232323;
-  font-size: 20px;
-  width: 150px;
-  height: 53px;
-  border: solid #1A505A 2px;
-  text-decoration: none;
-  background: none;
-  margin-top: 30px;
-  font-family: sans-serif;
-  letter-spacing: 1;
-  margin-bottom: 100px;
-  cursor: pointer;
+@media (min-width: 768px) and (max-width: 1380px) {
+  .about {margin-top: 750px;}
+  .about_container p {text-align: center;}
 }
 
 /* ABOUT */
@@ -193,6 +178,7 @@ body {
 /* PROJECTS */
 
 .projects {
+  margin-top: 80px;
 }
 
 .projects h1 {
@@ -212,7 +198,6 @@ body {
 }
 
 .ridestarter_container {
-
 }
 
 .ridestarter_text {
@@ -358,6 +343,7 @@ body {
   box-shadow: 10px 10px 5px #888888;
 }
 
+
 @media (max-width: 480px) {
   .project_container {width: 80%;}
   .ridestarter_text {width: 300px;}
@@ -366,16 +352,16 @@ body {
   .simplebox_image {margin: 0 auto; width: 300px; background-size:contain; height: 256px; margin-bottom: 50px;}
 }
 
+
 @media (min-width: 480px) and (max-width: 768px) {
   .project_container {width: 90%; margin-top: -50px;}
   .ridestarter_text {float: none; margin: 0 auto;}
   .ridestarter_image {float: none; margin: 0 auto; margin-top: -150px;}
   .simplebox_text {float: none; margin: 0 auto;}
   .simplebox_image { float: none; margin: 0 auto; margin-top: -150px;}
-
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1380px) {
   .project_container {margin-top: -50px;}
   .ridestarter_text {float: none; margin: 0 auto;}
   .ridestarter_image {float: none; margin: 0 auto; margin-top: -150px;}
@@ -383,15 +369,14 @@ body {
   .simplebox_image {float: none; margin: 0 auto; margin-top: -150px;}
 }
 
-@media (min-width: 1024px) and (max-width: 1380px) {
-  .project_container {width:100%;}
-  .simplebox_text {margin-top: 150px; }
-}
-
 
 /* PROJECTS */
 
 /* CONTACT*/
+
+.contact {
+  margin-top: 70px;
+}
 
 .contact h1 {
   letter-spacing: 5;
@@ -403,53 +388,43 @@ body {
 }
 
 .contact_container {
-  width: 45%;
+  width: 50%;
   margin: 0 auto;
   padding-top: -50px;
   padding-bottom: 50px;
-
+  text-align: center;
 }
 
-input[type=text], textarea {
-  width: 100%;
-  padding: 12px;
-  border: 2px solid #ccc;
+.contact_container p {
+  letter-spacing: 3;
+  font-size: 26px;
+  text-align: left;
+  color: #232323;
+  font-family: sans-serif;
+  font-weight:300;
+  margin: 0 auto;
+  line-height: 50px;
+  padding-bottom: 20px;
+}
+
+.button_touch {
   border-radius: 8px;
-  box-sizing: border-box;
-  resize: vertical;
-  margin-top: 10px;
-  font-size: 18px;
+  color: #232323;
+  font-size: 20px;
+  width: 150px;
+  height: 53px;
+  border: solid #7D9DBD 2px;
+  text-decoration: none;
+  background: none;
+  margin-top: 30px;
+  font-family: sans-serif;
+  letter-spacing: 1;
+  margin-bottom: 50px;
+  cursor: pointer;
 }
 
-input[type=submit] {
-    background-color: #1A505A;
-    color: white;
-    padding: 12px 20px;
-    width: 100%;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-top: 10px;
-    font-size: 18px;
-}
 
-@media (max-width: 480px) {
-  .contact_container {width: 80%;}
-}
 
-@media (min-width: 480px) and (max-width: 768px) {
-  .contact {margin-top: 700px}
-  .contact_container {width:80%; margin: 0 auto;}
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .contact {margin-top: 700px}
-  .contact_container {width:80%;}
-}
-
-@media (min-width: 1024px) and (max-width: 1380px) {
-  .contact_container {width:50%;}
-}
 
 /* CONTACT */
 
