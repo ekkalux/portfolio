@@ -344,7 +344,6 @@ body {
 }
 
 .more_projects {
-  float: none;
   margin: 0 auto;
   width: 300px;
 }
@@ -379,7 +378,8 @@ body {
   .ridestarter_text {float: none; margin: 0 auto;}
   .ridestarter_image {float: none; margin: 0 auto; margin-top: -150px;}
   .simplebox_text {float: none; margin: 0 auto;}
-  .simplebox_image { float: none; margin: 0 auto; margin-top: -150px;}
+  .simplebox_image { float: none; margin: 0 auto; margin-top: -150px; margin-bottom: 50px;}
+
 }
 
 @media (min-width: 768px) and (max-width: 1380px) {
@@ -387,7 +387,7 @@ body {
   .ridestarter_text {float: none; margin: 0 auto;}
   .ridestarter_image {float: none; margin: 0 auto; margin-top: -150px;}
   .simplebox_text {float: none; margin: 0 auto;}
-  .simplebox_image {float: none; margin: 0 auto; margin-top: -150px;}
+  .simplebox_image {float: none; margin: 0 auto; margin-top: -150px; margin-bottom: 50px;}
 }
 
 
