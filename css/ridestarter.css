@@ -4,38 +4,36 @@ html, body {
 }
 
 hr {
-  height:0;
-  border:0;
-  border-top:4px solid #52A54A;
-
+  height: 0;
+  border: 0;
+  border-top:3px solid #75B46F;
 }
 
 /** HERO **/
 
 .hero {
-  background-color: #52A54A;
+  background-color: #75B46F;
   background-size: cover;
   height: 100%;
   width: 100%;
-  position: relative;
 }
 
-.devices_image {
-  background-image: url(../images/ridestarter/ridestarter_hero_image.png);
-  position: absolute;
+.hero_container {
+  padding-top: 120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hero_container img{
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 500px 400px 0px 500px;
-  top: 200px;
-  left: 100px;
+  float: left;
+  width: 60%;
 }
 
 .title_container {
-  position: absolute;
-  right: 100px;
-  top: 150px;
-  width: 500px;
-  height: 400px;
+  float: left;
+  width: 40%;
 }
 
 .title_container h1 {
@@ -58,10 +56,9 @@ hr {
 }
 
 .arrow_down_container {
-  position: absolute;
-  right: 180px;
-  top: 280px;
   font-size: 80px;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .fa-arrow-circle-o-down {
@@ -69,9 +66,8 @@ hr {
 }
 
 .arrow_back_container {
-  position: absolute;
-  left: 40px;
-  top: 40px;
+  clear: both;
+  padding: 40px 0px 0px 40px;
 }
 
 .fa-arrow-circle-o-left {
@@ -79,29 +75,33 @@ hr {
   text-decoration: none;
 }
 
-@media (max-width: 480px) {
-  .title_container {right: 60px; width: 300px;}
-  .title_container h1 {letter-spacing: 1;}
-  .title_container p {margin-left: 40px;}
-  .arrow_down_container {top: 400px; right: 90px;}
-  .devices_image{background-image: none;}
-}
-
-@media (min-width: 480px) and (max-width: 768px)  {
-  .devices_image{background-image: none;}
-  .title_container {right: 90px; width: 350px;}
-  .title_container h1 {letter-spacing: 1;}
-  .arrow_down_container {top: 380px; right: 130px;}
-}
-
-@media (min-width: 768px) and (max-width: 1380px) {
-  .title_container {
-    top:-10px;
-    width: 700px;
+@media screen and (max-width: 640px) {
+  .hero_container {
+    padding-top: 20px;
+    width: 100%;
+    margin: 0 auto;
   }
-  .arrow_down_container {
-    top: 20px;
-    right: 10px;
+  .title_container {
+    width: 100%;
+  }
+  .hero img {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1200px) {
+  .hero_container {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 0px;
+  }
+  .title_container {
+    width: 100%;
+  }
+  .hero img {
+    width: 80%;
+    margin-left: 10%;
   }
 }
 
@@ -125,16 +125,20 @@ hr {
   cursor: pointer;
 }
 
-@media (max-width: 480px) {
-  .navigation h2 {font-size:16px;}
+@media screen and (max-width: 640px) {
+  .navigation h2 {
+    font-size:10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
-  .navigation h2 {font-size:18px;}
-}
-
-@media (min-width: 768px) and (max-width: 1380px) {
-  .navigation h2 {font-size:18px;}
+@media (min-width: 640px) and (max-width: 1200px) {
+  .navigation h2 {
+    font-size:16px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 /** NAVIGATION **/
@@ -144,11 +148,11 @@ hr {
 .summary_container {
   text-align: center;
   margin: 0 auto;
-  width: 75%;
+  width: 70%;
 }
 
 .summary_container h1 {
-  font-size: 48px;
+  font-size: 42px;
   font-family: cabin, sans-serif;
 }
 
@@ -164,19 +168,19 @@ hr {
 
 .solution {
   margin-top: 50px;
-  background-color: #52A54A;
+  background-color: #75B46F;
 }
 
 .solution_container {
   text-align: center;
   margin: 0 auto;
-  width: 75%;
+  width: 70%;
   padding-top: 10px;
   padding-bottom: 30px;
 }
 
 .solution_container h1 {
-  font-size: 48px;
+  font-size: 42px;
   font-family: cabin, sans-serif;
   color: white;
 }
@@ -195,17 +199,17 @@ hr {
 .research_container {
   text-align: center;
   margin: 0 auto;
-  width: 75%;
+  width: 70%;
 }
 
 .research_container h1 {
-  font-size: 48px;
+  font-size: 42px;
   font-family: cabin, sans-serif;
 }
 
 .survey_findings {
   text-align: left;
-  font-size: 32px;
+  font-size: 28px;
   font-family: cabin, sans-serif;
 }
 
@@ -219,25 +223,62 @@ hr {
   font-size: 22px;
   font-family: helvetica, sans-serif;
   text-align: left;
-  color: #52A54A;
+  color: #75B46F;
   text-decoration: none;
 }
 
-.survey_image {
-  background-image: url(../images/ridestarter/survey.png);
+.survey_findings img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 150px 300px 200px 300px;
   box-shadow: 0px 2px 5px #888888;
   margin-top: 20px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.competitive_analysis {
+  text-align: left;
+  font-size: 28px;
+  font-family: cabin, sans-serif;
+  margin-top: 40px;
+  margin: 0 auto;
+}
+
+.competitive_analysis p {
+  font-size: 22px;
+  font-family: helvetica, sans-serif;
+  text-align: left;
+}
+
+.competitive_analysis a {
+  font-size: 22px;
+  font-family: helvetica, sans-serif;
+  text-align: left;
+  color: #75B46F;
+    text-decoration: none;
+}
+
+.competitive_analysis img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 2px 5px #888888;
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 40px;
 }
 
 .personas {
   text-align: left;
-  font-size: 32px;
+  font-size: 28px;
   font-family: cabin, sans-serif;
-  margin-top: 40px;
+  margin: 0 auto;
+}
+
+.personas img {
+  display: inline-block;
+  width: 30%;
 }
 
 .personas p {
@@ -246,89 +287,20 @@ hr {
   text-align: left;
 }
 
-.luke {
-  background-image: url(../images/ridestarter/luke.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 330px;
-  height: 270px;
-  float: left;
-  box-shadow: 0px 2px 5px #888888;
-  margin-left: 20px;
-}
 
-.peter {
-  background-image: url(../images/ridestarter/peter.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 330px;
-  height: 270px;
-  float: left;
-  margin-left: 20px;
-  box-shadow: 0px 2px 5px #888888;
-}
-
-.hunter {
-  background-image: url(../images/ridestarter/hunter.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 330px;
-  height: 270px;
-  float: left;
-  margin-left: 20px;
-  box-shadow: 0px 2px 5px #888888;
-}
-
-@media (max-width: 480px) {
-  .survey_image {
-    background-size: contain;
-    padding: 0px;
-    width: 300px;
-    height: 100px;
-  }
-  .luke {
-    margin-bottom: 20px;
-  }
-  .peter {
-    margin-bottom: 20px;
+@media screen and (max-width: 640px) {
+  .personas img {
+    display: grid;
+    width: 100%;
+    margin-top: 20px;
   }
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
-  .survey_image {
-    background-size: cover;
-    padding: 0px;
-    width: 450px;
-    height: 200px;
-  }
-  .luke {
-    margin-bottom: 20px;
-  }
-  .peter {
-    margin-bottom: 20px;
-  }
-  .hunter {
-    margin-bottom: 40px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1380px) {
-  .luke {
-    margin-bottom: 20px;
-    margin-left: 0;
-    width: 190px;
-    height: 130px;
-  }
-  .peter {
-    margin-bottom: 20px;
-    width: 190px;
-    height: 130px;
-  }
-  .hunter {
-    margin-bottom: 40px;
-    width: 190px;
-    height: 130px;
-    margin-left: 0px;
+@media (min-width: 640px) and (max-width: 1200px) {
+  .personas img {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
   }
 }
 
@@ -337,26 +309,25 @@ hr {
 /** DESIGN CHOICES **/
 
 .design_choices {
-  margin-top: 350px;
   padding-bottom: 40px;
 }
 
 .design_container {
   text-align: center;
   margin: 0 auto;
-  width: 75%;
+  width: 70%;
   padding-top: 10px;
   padding-bottom: 20px;
 }
 
 .design_container h1 {
-  font-size: 48px;
+  font-size: 42px;
   font-family: cabin, sans-serif;
 }
 
 .user_flow {
   text-align: left;
-  font-size: 32px;
+  font-size: 28px;
   font-family: cabin, sans-serif;
 }
 
@@ -369,27 +340,25 @@ hr {
 .user_flow a {
   font-size: 22px;
   font-family: helvetica, sans-serif;
-  text-align: left;
-  color: #52A54A;
+  color: #75B46F;
   text-decoration: none;
   cursor: pointer;
+  padding-right: 200px;
 }
 
-.user_flow_image {
-  background-image: url(../images/ridestarter/user_flow.png);
-  background-size: contain;
+.user_flow img {
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 580px;
-  height: 750px;
-  margin: 0 auto;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 20px;
   box-shadow: 0px 2px 5px #888888;
   background-color: white;
-  margin-top: 20px;
 }
 
 .branding {
   text-align: left;
-  font-size: 32px;
+  font-size: 28px;
   font-family: cabin, sans-serif;
   margin-top: 40px;
 }
@@ -400,10 +369,8 @@ hr {
   text-align: left;
 }
 
-.branding_picture {
-  background-image: url(../images/ridestarter/ridestarter_branding.png);
+.branding img {
   width: 100%;
-  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0px 2px 5px #888888;
@@ -411,7 +378,7 @@ hr {
 
 .low_mockups {
   text-align: left;
-  font-size: 32px;
+  font-size: 28px;
   font-family: cabin, sans-serif;
   margin-top: 40px;
 }
@@ -425,66 +392,12 @@ hr {
 .low_mockups_image_container {
 }
 
-.homepage_low_image {
-  background-image: url(../images/ridestarter/homepage_low.png);
-  width: 50%;
-  height: 800px;
-  background-size: contain;
+.low_mockups_image_container img{
+  width: 40%;
+  background-size: cover;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 80px;
-}
-
-.charity_low_image {
-  background-image: url(../images/ridestarter/charity_low.png);
-  width: 50%;
-  height: 800px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  float: left;
-  margin-bottom: 80px;
-}
-
-@media (max-width: 480px) {
-  .design_choices {margin-top:850px;}
-  .user_flow_image {
-    background-size: cover;
-    width: 300px;
-    height: 410px; }
-  .branding_picture {
-    background-image: url(../images/ridestarter/ridestarter_branding.png);
-    width: 300px;
-    height: 250px;
-    background-size: contain;
-  }
-  .homepage_low_image {
-    height: 200px;
-  }
-  .charity_low_image {
-    height: 200px;
-  }
-}
-
-@media (min-width: 480px) and (max-width: 768px) {
-  .design_choices {
-    margin-top: 900px;
-  }
-  .user_flow_image {
-    background-size: cover;
-    width: 300px;
-    height: 410px; }
-  .branding_picture {
-    background-image: url(../images/ridestarter/ridestarter_branding.png);
-    width: 350px;
-    height: 300px;
-    background-size: contain;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1380px) {
-  .design_choices {
-    margin-top:200px;
-  }
+  margin-left: 6%;
 }
 
 /** DESIGN CHOICES **/
@@ -493,24 +406,25 @@ hr {
 
 .implementation  {
   margin-top: 30px;
+  clear: both;
 }
 
 .implement_container {
   text-align: center;
   margin: 0 auto;
-  width: 75%;
+  width: 70%;
   padding-top: 10px;
   padding-bottom: 20px;
 }
 
 .implement_container h1 {
-  font-size: 48px;
+  font-size: 42px;
   font-family: cabin, sans-serif;
 }
 
 .user_testing {
   text-align: left;
-  font-size: 32px;
+  font-size: 28px;
   font-family: cabin, sans-serif;
   margin-top: 30px;
 }
@@ -523,7 +437,7 @@ hr {
 }
 
 .quotes {
-  background-color: #52A54A;
+  background-color: #75B46F;
   width: 100%;
   padding-top: 20px;
   padding-bottom: 50px;
@@ -549,18 +463,18 @@ hr {
   padding-bottom: 20px;
   font-size: 32px;
   font-family: cabin, sans-serif;
-  height: 2000px;
 }
 
 .charity_page_container {
   margin-top: 40px;
+  height: 800px;
 }
 
 .charity_page_text {
-  float: right;
   font-size: 28px;
-  width: 45%;
-  height: 900px;
+  float: left;
+  width: 50%;
+  margin-left: 40px;
 }
 
 .charity_page_text p{
@@ -568,25 +482,27 @@ hr {
   font-family: helvetica, sans-serif;
 }
 
-.charity_page_image {
-  background-image: url(../images/ridestarter/charity_page.png);
+.charity_page_text h1 {
+  font-size: 28px;
+}
+
+.charity_page_container img {
   float: left;
-  width: 50%;
-  height: 900px;
+  width: 40%;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 2px 5px #888888;
 }
 
 .guest_checkout_container {
+  height: 500px;
 }
 
 .guest_checkout_text{
   font-size: 28px;
-  width: 45%;
+  width: 40%;
   float: left;
-  margin-top: 60px;
-  height: 400px;
+  margin-right: 40px;
 }
 
 .guest_checkout_text p{
@@ -594,15 +510,12 @@ hr {
   font-family: helvetica, sans-serif;
 }
 
-.guest_checkout_image {
-  background-image: url(../images/ridestarter/guest_checkout.png);
-  float: right;
-  width: 45%;
-  height: 400px;
+.guest_checkout_container img {
+  float: left;
+  width: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 2px 5px #888888;
-  margin-top: 60px;
 }
 
 .filter_container {
@@ -610,9 +523,10 @@ hr {
 
 .filter_text {
   font-size: 28px;
-  width: 45%;
-  float: right;
-  margin-top: 60px;
+  width: 50%;
+  float: left;
+  margin-left: 40px;
+
 }
 
 .filter_text p {
@@ -620,104 +534,80 @@ hr {
   font-family: helvetica, sans-serif;
 }
 
-.filter_image {
-  background-image: url(../images/ridestarter/filter.png);
+.filter_container img {
   float: left;
-  width: 50%;
-  height: 550px;
+  width: 40%;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 2px 5px #888888;
 }
 
-@media (max-width: 480px) {
-  .charity_page_image {
-    float: none;
-    width:350px;
-    height: 580px;
-    background-size: contain;
-    margin-top: 140px;
+@media screen and (max-width: 640px) {
+  .charity_page_text {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
   }
-  .charity_page_text{
-    float: none;
-    width: 350px;
-  }
-  .guest_checkout_image {
-    float: none;
-    background-size: contain;
-    width: 340px;
-    height: 280px;
-    margin-top: -40px;
+  .charity_page_container img {
+    width: 100%;
   }
   .guest_checkout_text {
-    float: none;
-    width: 350px;
+    width: 100%;
+    margin-right: 0px;
   }
-  .filter_image {
-    float: none;
-    background-size: contain;
-    width: 350px ;
-    height: 370px ;
+  .guest_checkout_container img {
+    width: 100%;
   }
   .filter_text {
-    float: none;
-    width: 350px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
   }
-  .special_features {
-    height: 3200px;
-  }
-}
-
-@media (min-width: 480px) and (max-width: 768px) {
-  .charity_page_image {
-    float: none;
-    width:350px;
-    height: 580px;
-    background-size: contain;
+  .filter_container img {
+    width: 100%;
     margin-top: 40px;
   }
-  .charity_page_text{
-    float: none;
-    width: 400px;
+}
+
+@media (min-width: 640px) and (max-width: 1200px) {
+  .charity_page_text {
+    width: 100%;
+    margin-top: 20px;
   }
-  .guest_checkout_image {
-    float: none;
-    background-size: contain;
-    width: 340px;
-    height: 280px;
-    margin-top:-80px;
+  .charity_page_container img {
+    width: 50%;
+    margin-left: 25%;
   }
   .guest_checkout_text {
-    float: none;
-    width: 400px;
+    width: 100%;
+    margin-left: 5%;
   }
-  .filter_image {
-    float: none;
-    background-size: contain;
-    width: 350px ;
-    height: 370px ;
+  .guest_checkout_container img {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 40px;
   }
   .filter_text {
-    float: none;
-    width: 400px;
+    width: 100%;
+    margin-top: 20px;
   }
-  .special_features {
-    height: 3100px;
+  .filter_container img {
+    width: 50%;
+    margin-left: 25%;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1380px) {
-}
 
 /** IMPLEMENTATION **/
 
 .final {
+  clear: both;
 }
 
 .final_container {
   text-align: left;
   margin: 0 auto;
-  width: 75%;
+  width: 70%;
   padding-top: 10px;
   padding-bottom: 60px;
   font-size: 28px;
@@ -725,7 +615,7 @@ hr {
 }
 
 .final_container h1 {
-  font-size: 48px;
+  font-size: 42px;
   font-family: cabin, sans-serif;
   text-align: center;
 }
@@ -741,64 +631,38 @@ hr {
   font-size: 22px;
   text-align: left;
   font-family: helvetica, sans-serif;
-  color: #52A54A
+  color: #75B46F;
 }
 
 .final_image {
   width: 100%;
-  height: 500px;
   margin: 0 auto;
+  text-align: center;
 }
 
-.final_homepage {
-  background-image: url(../images/ridestarter/homepage.png);
+.final_image img {
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  height: 500px;
-  width: 265px;
+  background-size: cover;
   float: left;
   box-shadow: 0px 2px 5px #888888;
+  width: 25%;
   margin-left: 70px;
-  margin-top: 30px;
-}
-
-.final_charity {
-  background-image: url(../images/ridestarter/charity_page.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  height: 500px;
-  width: 300px;
-  float: left;
-  margin-left: 30px;
-  box-shadow: 0px 2px 5px #888888;
-  margin-top: 30px;
-}
-
-.final_payment {
-  background-image: url(../images/ridestarter/payment.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  height: 500px;
-  width: 290px;
-  float: left;
-  margin-left: 30px;
-  box-shadow: 0px 2px 5px #888888;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .conclusion {
-  background-color: #52A54A;
+  background-color: #75B46F;
   width: 100%;
   color: white;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  clear: both;
+  box-shadow: 0px 2px 5px #888888;
 }
 
 .conclusion h1 {
-  font-size: 32px;
+  font-size: 28px;
   width: 75%;
   margin: 0 auto;
   font-family: cabin, sans-serif;
@@ -815,51 +679,93 @@ hr {
   font-weight: 300;
 }
 
-@media (max-width: 480px) {
-  .final_container {
-    padding-bottom: 1150px;
-  }
-  .final_homepage {
-    margin-left: 30px;
-  }
-}
-
-@media (min-width: 480px) and (max-width: 768px) {
-  .final_container {
-    padding-bottom: 1150px;
-  }
-  .final_homepage {
-    margin-left: 30px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1380px) {
-  .final_homepage {
-    background-size: contain;
-    height: 320px;
-    width: 170px;
-    float: left;
+@media screen and (max-width: 640px) {
+  .final_image img {
+    width: 100%;
     margin-left: 0px;
-    box-shadow: 0px 2px 5px #888888;
-    margin-top: 30px;
-
-  }
-  .final_payment {
-    background-size: contain;
-    height: 300px;
-    width: 170px;
-    float: left;
-    margin-left: 30px;
-    box-shadow: 0px 2px 5px #888888;
-    margin-top: 30px;
-  }
-  .final_charity {
-    background-size: contain;
-    height: 280px;
-    width: 170px;
-    float: left;
-    margin-left: 30px;
-    box-shadow: 0px 2px 5px #888888;
-    margin-top: 30px;
   }
 }
+
+@media (min-width: 640px) and (max-width: 1200px) {
+  .final_image img {
+    width: 25%;
+    margin-left: 35px;
+  }
+}
+
+.contact {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.contact h1 {
+  font-size: 42px;
+  font-family: cabin, sans-serif;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 22px;
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.button_touch {
+  border-radius: 8px;
+  color: #232323;
+  font-size: 20px;
+  width: 150px;
+  height: 53px;
+  border: solid #1A505A 2px;
+  text-decoration: none;
+  background: none;
+  font-family: sans-serif;
+  letter-spacing: 1;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+/** FOOTER **/
+
+.footer {
+  width: 100%;
+  background-color: #1A505A;
+  padding-bottom: 50px;
+  padding-top: 20px
+}
+.left_footer {
+  float: left;
+  padding-left: 50px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.right_footer {
+  color: white;
+  letter-spacing: 3px;
+  float: right;
+  margin-right: 20px;
+}
+.fa {
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .right_footer {float: none;text-align: center; margin-top: 20px;}
+  .left_footer {float: none;}
+}
+
+@media (min-width: 1440px) {
+  .project_container {width: 70%;}
+}
+
+
+/** FOOTER **/

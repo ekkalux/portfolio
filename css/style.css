@@ -117,10 +117,11 @@ body {
    color: white;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 640px) {
   .top_button_container {right: 30px;}
   .hero_container {margin-top: -80px;}
 }
+
 
 
 /* ABOUT */
@@ -158,20 +159,6 @@ body {
   padding-bottom: 60px;
 }
 
-@media (max-width: 480px) {
-  .about_container p{text-align: center;}
-  .about {margin-top: 650px;}
-}
-
-@media (min-width: 480px) and (max-width: 768px) {
-  .about {margin-top: 750px;}
-  .about_container p {text-align: center;}
-}
-
-@media (min-width: 768px) and (max-width: 1380px) {
-  .about {margin-top: 750px;}
-  .about_container p {text-align: center;}
-}
 
 /* ABOUT */
 
@@ -193,17 +180,15 @@ body {
 .project_container {
   width: 70%;
   margin: 0 auto;
-  padding: 50px;
-  height: 1050px;
 }
 
 .ridestarter_container {
+  height: 500px;
 }
 
 .ridestarter_text {
-  width: 500px;
-  float: right;
-  height: 600px;
+  width: 55%;
+  float: left;
   margin-top: -30px;
 }
 
@@ -254,29 +239,25 @@ body {
   margin-top: 30px;
   font-family: sans-serif;
   letter-spacing: 1;
-  margin-bottom: 100px;
   margin-right: 5px;
   cursor: pointer;
 }
 
-.ridestarter_image {
-  width: 450px;
+.ridestarter_container img {
+  width: 45%;
   float: left;
-  height: 400px;
   background-image: url(../images/ridestarter_laptop.png);
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 10px 10px 5px #888888;
 }
 
-
 .simplebox_container {
 }
 
 .simplebox_text {
-  width: 500px;
+  width: 55%;
   float: left;
-  height: 500px;
   margin-top: -30px;
 }
 
@@ -287,7 +268,6 @@ body {
   color: #7D9DBD;
   font-weight: 600;
 }
-
 
 .simplebox_text h2 {
   font-size: 18px;
@@ -328,15 +308,13 @@ body {
   margin-top: 30px;
   font-family: sans-serif;
   letter-spacing: 1;
-  margin-bottom: 100px;
   margin-right: 5px;
   cursor: pointer;
 }
 
-.simplebox_image {
-  width: 450px;
-  float: right;
-  height: 400px;
+.simplebox_container img{
+  width: 45%;
+  float: left;
   background-image: url(../images/simplebox_laptop.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -344,8 +322,9 @@ body {
 }
 
 .more_projects {
-  margin: 0 auto;
-  width: 300px;
+  text-align: center;
+  clear: both;
+  padding-top: 80px;
 }
 
 .button_more_projects {
@@ -364,30 +343,51 @@ body {
 }
 
 
-@media (max-width: 480px) {
-  .project_container {width: 80%;}
-  .ridestarter_text {width: 300px;}
-  .ridestarter_image {margin: 0 auto; width: 300px; background-size:contain; height: 256px;}
-  .simplebox_text {margin-top: 30px; width: 300px}
-  .simplebox_image {margin: 0 auto; width: 300px; background-size:contain; height: 256px; margin-bottom: 50px;}
+@media screen and (max-width: 640px) {
+  .project_container {
+    width: 80%;
+    padding: 0;
+  }
+  .ridestarter_container img{
+   width: 100%;
+  }
+  .ridestarter_text {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  .simplebox_container img {
+    width: 100%;
+  }
+  .simplebox_text {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
+@media (min-width: 640px) and (max-width: 1200px) {
+  .project_container {
+    width: 80%;
+    padding: 0;
+  }
+  .ridestarter_container img{
+   width: 60%;
+   margin-left: 18%;
+  }
+  .ridestarter_text {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  .simplebox_container img {
+    width: 60%;
+    margin-left: 18%;
+  }
+  .simplebox_text {
+    width: 100%;
+    margin-top: 0;
+  }
 
-@media (min-width: 480px) and (max-width: 768px) {
-  .project_container {width: 90%; margin-top: -50px;}
-  .ridestarter_text {float: none; margin: 0 auto;}
-  .ridestarter_image {float: none; margin: 0 auto; margin-top: -150px;}
-  .simplebox_text {float: none; margin: 0 auto;}
-  .simplebox_image { float: none; margin: 0 auto; margin-top: -150px; margin-bottom: 50px;}
-
-}
-
-@media (min-width: 768px) and (max-width: 1380px) {
-  .project_container {margin-top: -50px;}
-  .ridestarter_text {float: none; margin: 0 auto;}
-  .ridestarter_image {float: none; margin: 0 auto; margin-top: -150px;}
-  .simplebox_text {float: none; margin: 0 auto;}
-  .simplebox_image {float: none; margin: 0 auto; margin-top: -150px; margin-bottom: 50px;}
 }
 
 
@@ -482,5 +482,8 @@ body {
   .left_footer {float: none;}
 }
 
+@media (min-width: 1440px) {
+  .project_container {width: 70%;}
+}
 
 /* FOOTER */
