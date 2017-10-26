@@ -169,6 +169,7 @@ hr {
 .solution {
   margin-top: 50px;
   background-color: #75B46F;
+  box-shadow: 0px 2px 5px #888888;
 }
 
 .solution_container {
@@ -467,11 +468,11 @@ hr {
 
 .charity_page_container {
   margin-top: 40px;
-  height: 800px;
+  height: 760px;
 }
 
 .charity_page_text {
-  font-size: 28px;
+  font-size: 26px;
   float: left;
   width: 50%;
   margin-left: 40px;
@@ -495,14 +496,14 @@ hr {
 }
 
 .guest_checkout_container {
-  height: 500px;
+  height: 400px;
 }
 
 .guest_checkout_text{
-  font-size: 28px;
-  width: 40%;
+  font-size: 26px;
+  width: 50%;
   float: left;
-  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .guest_checkout_text p{
@@ -512,7 +513,7 @@ hr {
 
 .guest_checkout_container img {
   float: left;
-  width: 50%;
+  width: 40%;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 2px 5px #888888;
@@ -522,7 +523,7 @@ hr {
 }
 
 .filter_text {
-  font-size: 28px;
+  font-size: 26px;
   width: 50%;
   float: left;
   margin-left: 40px;
@@ -553,7 +554,8 @@ hr {
   }
   .guest_checkout_text {
     width: 100%;
-    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 20px;
   }
   .guest_checkout_container img {
     width: 100%;

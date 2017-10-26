@@ -7,6 +7,15 @@ body {
   background-color: #FBFBFB;
 }
 
+hr {
+  height: 0;
+  border: 0;
+  border-top:2px solid #1A505A;
+  margin-top: -35px;
+  margin-bottom: 40px;
+  width: 200px;
+}
+
 /* NAVIGATION BAR */
 
 .hero {
