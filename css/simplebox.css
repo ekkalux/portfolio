@@ -13,6 +13,16 @@ hr {
   border-top:3px solid #7D9DBD;
 }
 
+p {
+  font-family: Noto Sans, sans-serif;
+  font-size: 20px;
+}
+
+a {
+  font-family: Noto Sans, sans-serif;
+  font-size: 20px;
+}
+
 /** HERO **/
 
 .hero {
@@ -113,7 +123,7 @@ hr {
 
 .navigation h2 {
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   font-family: helvetica, sans-serif;
   margin-right: 10px;
   margin-left: 20px;
@@ -153,8 +163,6 @@ hr {
 }
 
 .summary_container p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
 }
 
@@ -183,8 +191,6 @@ hr {
 }
 
 .solution_container p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
   color: #232323;
 }
@@ -205,8 +211,6 @@ hr {
 }
 
 .research_container p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
   color: #232323;
 }
@@ -224,8 +228,6 @@ hr {
 }
 
 .research_results p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
   width: 70%;
   margin: 0 auto;
@@ -239,8 +241,6 @@ hr {
 }
 
 .research_container_2 p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
 }
 
@@ -253,14 +253,10 @@ hr {
 }
 
 .user_flow p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
 }
 
 .user_flow a {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
   text-decoration: none;
   color: #7D9DBD;
@@ -337,8 +333,6 @@ hr {
 }
 
 .branding p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
 }
 
@@ -366,8 +360,6 @@ hr {
 }
 
 .low_fidelity p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
 }
 
@@ -404,8 +396,6 @@ hr {
 }
 
 .high_fidelity p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
 }
 
@@ -442,8 +432,6 @@ hr {
 }
 
 .final_product p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
 }
 
@@ -476,8 +464,6 @@ hr {
 }
 
 .conclusion a {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   color:#7D9DBD;
   text-decoration: none;
 }
@@ -506,7 +492,7 @@ hr {
 
 .contact {
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
   text-align: center;
   padding-top: 40px;
 }
@@ -518,8 +504,6 @@ hr {
 }
 
 .contact p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: center;
   width: 40%;
   margin: 0 auto;

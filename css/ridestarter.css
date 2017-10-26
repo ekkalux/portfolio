@@ -122,7 +122,7 @@ p {
 
 .navigation h2 {
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   font-family: helvetica, sans-serif;
   margin-right: 10px;
   margin-left: 30px;
@@ -187,12 +187,12 @@ p {
 .solution_container h1 {
   font-size: 42px;
   font-family: cabin, sans-serif;
-  color: white;
+  color: #232323;
 }
 
 .solution_container p {
   text-align: left;
-  color: white;
+  color: #232323;
 }
 
 /** SOLUTION **/
@@ -214,6 +214,11 @@ p {
   text-align: left;
   font-size: 28px;
   font-family: cabin, sans-serif;
+}
+
+.survey_findings_2 {
+  background-color: #75B46F;
+  box-shadow: 0px 2px 5px #888888;
 }
 
 .survey_findings p {
@@ -306,7 +311,6 @@ p {
 /** DESIGN CHOICES **/
 
 .design_choices {
-  padding-bottom: 40px;
 }
 
 .design_container {
@@ -378,17 +382,14 @@ p {
 
 .low_mockups p{
   text-align: left;
+  clear: both;
 }
 
-.low_mockups_image_container {
-}
-
-.low_mockups_image_container img{
-  width: 40%;
+.low_mockups img {
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  float: left;
-  margin-left: 6%;
+
 }
 
 /** DESIGN CHOICES **/
@@ -396,8 +397,6 @@ p {
 /** IMPLEMENTATION **/
 
 .implementation  {
-  margin-top: 30px;
-  clear: both;
 }
 
 .implement_container {
@@ -438,7 +437,7 @@ p {
   font-size: 22px;
   font-family: helvetica, sans-serif;
   text-align: left;
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
   font-weight: 300;
   font-style: italic;
@@ -448,7 +447,7 @@ p {
 .special_features {
   text-align: left;
   margin: 0 auto;
-  width: 75%;
+  width: 70%;
   padding-top: 40px;
   padding-bottom: 20px;
   font-size: 32px;
@@ -565,7 +564,6 @@ p {
   }
   .guest_checkout_text {
     width: 100%;
-    margin-left: 5%;
   }
   .guest_checkout_container img {
     width: 50%;
@@ -594,7 +592,6 @@ p {
   margin: 0 auto;
   width: 70%;
   padding-top: 10px;
-  padding-bottom: 60px;
   font-size: 28px;
   font-family: cabin, sans-serif;
 }
@@ -617,27 +614,17 @@ p {
   color: #75B46F;
 }
 
-.final_image {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.final_image img {
+.final_container img {
   background-repeat: no-repeat;
   background-size: cover;
-  float: left;
-  box-shadow: 0px 2px 5px #888888;
-  width: 25%;
-  margin-left: 70px;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  width: 100%;
 }
+
 
 .conclusion {
   background-color: #75B46F;
   width: 100%;
-  color: white;
+  color: #232323;
   padding-top: 40px;
   padding-bottom: 40px;
   clear: both;
@@ -649,7 +636,6 @@ p {
   width: 70%;
   margin: 0 auto;
   font-family: cabin, sans-serif;
-  font-weight: 400;
 }
 
 .conclusion p {
@@ -660,17 +646,11 @@ p {
 }
 
 @media screen and (max-width: 640px) {
-  .final_image img {
-    width: 100%;
-    margin-left: 0px;
-  }
+
 }
 
 @media (min-width: 640px) and (max-width: 1200px) {
-  .final_image img {
-    width: 25%;
-    margin-left: 35px;
-  }
+
 }
 
 .contact {
