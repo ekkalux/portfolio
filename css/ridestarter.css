@@ -9,6 +9,11 @@ hr {
   border-top:3px solid #75B46F;
 }
 
+p {
+  font-family: Noto Sans, sans-serif;
+  font-size: 20px;
+}
+
 /** HERO **/
 
 .hero {
@@ -157,8 +162,7 @@ hr {
 }
 
 .summary_container p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -187,8 +191,6 @@ hr {
 }
 
 .solution_container p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
   color: white;
 }
@@ -215,8 +217,6 @@ hr {
 }
 
 .survey_findings p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
 }
 
@@ -247,8 +247,6 @@ hr {
 }
 
 .competitive_analysis p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
 }
 
@@ -283,8 +281,6 @@ hr {
 }
 
 .personas p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
 }
 
@@ -333,8 +329,6 @@ hr {
 }
 
 .user_flow p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
 }
 
@@ -365,8 +359,6 @@ hr {
 }
 
 .branding p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
 }
 
@@ -385,8 +377,6 @@ hr {
 }
 
 .low_mockups p{
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
 }
 
@@ -431,8 +421,6 @@ hr {
 }
 
 .user_testing p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
   font-weight: normal;
 }
@@ -442,6 +430,7 @@ hr {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 50px;
+  box-shadow: 0px 2px 5px #888888;
 }
 
 .quotes p {
@@ -479,8 +468,6 @@ hr {
 }
 
 .charity_page_text p{
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
 }
 
 .charity_page_text h1 {
@@ -507,8 +494,6 @@ hr {
 }
 
 .guest_checkout_text p{
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
 }
 
 .guest_checkout_container img {
@@ -531,8 +516,6 @@ hr {
 }
 
 .filter_text p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
 }
 
 .filter_container img {
@@ -623,8 +606,6 @@ hr {
 }
 
 .final_container p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
 }
 
@@ -665,20 +646,17 @@ hr {
 
 .conclusion h1 {
   font-size: 28px;
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
   font-family: cabin, sans-serif;
   font-weight: 400;
 }
 
 .conclusion p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: left;
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
   padding-top: 20px;
-  font-weight: 300;
 }
 
 @media screen and (max-width: 640px) {
@@ -709,8 +687,6 @@ hr {
 }
 
 .contact p {
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
   text-align: center;
   width: 40%;
   margin: 0 auto;
