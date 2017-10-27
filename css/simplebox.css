@@ -440,10 +440,9 @@ a {
 }
 
 .html h1 {
-  font-size: 32px;
+  font-size: 26px;
   font-family: cabin, sans-serif;
   text-align: left;
-  font-weight: 300;
 }
 
 .html a {
