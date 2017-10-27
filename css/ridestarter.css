@@ -212,17 +212,8 @@ p {
 
 .survey_findings {
   text-align: left;
-  font-size: 28px;
+  font-size: 26px;
   font-family: cabin, sans-serif;
-}
-
-.survey_findings_2 {
-  background-color: #75B46F;
-  box-shadow: 0px 2px 5px #888888;
-}
-
-.survey_findings p {
-  text-align: left;
 }
 
 .survey_findings a{
@@ -245,7 +236,7 @@ p {
 
 .competitive_analysis {
   text-align: left;
-  font-size: 28px;
+  font-size: 26px;
   font-family: cabin, sans-serif;
   margin-top: 40px;
   margin: 0 auto;
@@ -275,7 +266,7 @@ p {
 
 .personas {
   text-align: left;
-  font-size: 28px;
+  font-size: 26px;
   font-family: cabin, sans-serif;
   margin: 0 auto;
 }
@@ -328,7 +319,7 @@ p {
 
 .user_flow {
   text-align: left;
-  font-size: 28px;
+  font-size: 26px;
   font-family: cabin, sans-serif;
 }
 
@@ -357,7 +348,7 @@ p {
 
 .branding {
   text-align: left;
-  font-size: 28px;
+  font-size: 26px;
   font-family: cabin, sans-serif;
   margin-top: 40px;
 }
@@ -375,7 +366,7 @@ p {
 
 .low_mockups {
   text-align: left;
-  font-size: 28px;
+  font-size: 26px;
   font-family: cabin, sans-serif;
   margin-top: 40px;
 }
@@ -414,7 +405,7 @@ p {
 
 .user_testing {
   text-align: left;
-  font-size: 28px;
+  font-size: 26px;
   font-family: cabin, sans-serif;
   margin-top: 30px;
 }
@@ -450,7 +441,7 @@ p {
   width: 70%;
   padding-top: 40px;
   padding-bottom: 20px;
-  font-size: 32px;
+  font-size: 26px;
   font-family: cabin, sans-serif;
 }
 
@@ -592,7 +583,7 @@ p {
   margin: 0 auto;
   width: 70%;
   padding-top: 10px;
-  font-size: 28px;
+  font-size: 26px;
   font-family: cabin, sans-serif;
 }
 
@@ -620,7 +611,6 @@ p {
   width: 100%;
 }
 
-
 .conclusion {
   background-color: #75B46F;
   width: 100%;
@@ -632,7 +622,7 @@ p {
 }
 
 .conclusion h1 {
-  font-size: 28px;
+  font-size: 26px;
   width: 70%;
   margin: 0 auto;
   font-family: cabin, sans-serif;
