@@ -139,6 +139,8 @@ hr {
   margin-top: 20px;
   background-color: #1A505A;
   box-shadow: 0px 5px 4px grey;
+  clear: both;
+  margin-top: 500px;
 }
 
 .about_container {
@@ -192,7 +194,7 @@ hr {
 }
 
 .ridestarter_container {
-  height: 500px;
+
 }
 
 .ridestarter_text {
@@ -262,6 +264,8 @@ hr {
 }
 
 .simplebox_container {
+  clear: both;
+  padding-top: 100px;
 }
 
 .simplebox_text {
@@ -331,25 +335,76 @@ hr {
 }
 
 .more_projects {
-  text-align: center;
   clear: both;
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
-.button_more_projects {
+.more_projects img {
+  width: 45%;
+  float: left;
+  background-image: url(../images/simplebox_laptop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.more_projects_text {
+  width: 55%;
+  float: left;
+  margin-top: -30px;
+}
+
+.more_projects_text h1 {
+  letter-spacing: 5;
+  font-size: 42px;
+  font-family: helvetica, sans-serif;
+  color: #7D9DBD;
+  font-weight: 600;
+}
+
+.more_projects_text h2{
+  font-size: 18px;
+  font-family: helvetica, sans-serif;
+  color: #232323;
+  font-weight: 400;
+  margin-top: -30px;
+  text-align: center;
+  letter-spacing: 1;
+}
+
+.more_projects_text p {
+  letter-spacing: 4;
+  font-size: 24px;
+  text-align: center;
+  color: #232323;
+  font-family: sans-serif;
+  font-weight:400;
+  width: 75%;
+  margin: 0 auto;
+  line-height: 30px;
+  padding-top: 15px;
+}
+
+.more_projects_button {
+  text-align: center;
+}
+
+.button_more {
   border-radius: 8px;
   color: #232323;
   font-size: 20px;
-  width: 290px;
+  width: 150px;
   height: 53px;
-  border: solid #1A505A 2px;
+  border: solid #7D9DBD 2px;
   text-decoration: none;
   background: none;
+  margin-top: 30px;
   font-family: sans-serif;
   letter-spacing: 1;
-  margin-bottom: 50px;
+  margin-right: 5px;
   cursor: pointer;
 }
+
 
 
 @media screen and (max-width: 640px) {
@@ -369,6 +424,13 @@ hr {
     width: 100%;
   }
   .simplebox_text {
+    width: 100%;
+    margin-top: 0;
+  }
+  .more_projects img {
+    width: 100%;
+  }
+  .more_projects_text {
     width: 100%;
     margin-top: 0;
   }
@@ -393,6 +455,14 @@ hr {
     margin-left: 18%;
   }
   .simplebox_text {
+    width: 100%;
+    margin-top: 0;
+  }
+  .more_projects img {
+    width: 60%;
+    margin-left: 18%;
+  }
+  .more_projects_text {
     width: 100%;
     margin-top: 0;
   }
