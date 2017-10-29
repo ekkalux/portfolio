@@ -405,8 +405,6 @@ hr {
   cursor: pointer;
 }
 
-
-
 @media screen and (max-width: 640px) {
   .project_container {
     width: 80%;
