@@ -137,7 +137,24 @@ hr {
 
 @media screen and (max-width: 640px) {
   .top_button_container {right: 30px;}
-  .hero_container {top: 120px;}
+  .hero_container {
+    top: 90px;
+  }
+  .hero_container p {
+    font-size: 20px;
+  }
+  .hero_container h1 {
+    font-size: 42px;
+  }
+  .button_resume {
+    width: 120px;
+  }
+  .button_contact {
+    width: 120px;
+  }
+  .button {
+    width: 120px;
+  }
 }
 
 
