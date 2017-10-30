@@ -137,9 +137,8 @@ hr {
 
 @media screen and (max-width: 640px) {
   .top_button_container {right: 30px;}
-  .hero_container {margin-top: -80px;}
+  .hero_container {top: 120px;}
 }
-
 
 
 /* ABOUT */
