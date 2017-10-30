@@ -231,9 +231,9 @@ hr {
 }
 
 .ridestarter_text p {
-  letter-spacing: 4;
+  letter-spacing: 2;
   font-size: 24px;
-  text-align: center;
+  text-align: left;
   color: #232323;
   font-family: sans-serif;
   font-weight:400;
@@ -302,9 +302,9 @@ hr {
 }
 
 .simplebox_text p {
-  letter-spacing: 4;
+  letter-spacing: 2;
   font-size: 24px;
-  text-align: center;
+  text-align: left;
   color: #232323;
   font-family: sans-serif;
   font-weight:400;
@@ -382,9 +382,9 @@ hr {
 }
 
 .more_projects_text p {
-  letter-spacing: 4;
+  letter-spacing: 2;
   font-size: 24px;
-  text-align: center;
+  text-align: left;
   color: #232323;
   font-family: sans-serif;
   font-weight:400;
@@ -511,7 +511,7 @@ hr {
   text-align: left;
   color: #232323;
   font-family: sans-serif;
-  font-weight:300;
+  font-weight:400;
   margin: 0 auto;
   line-height: 50px;
   padding-bottom: 20px;

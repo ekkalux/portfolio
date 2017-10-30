@@ -131,7 +131,7 @@ a {
 /** NAVIGATION **/
 
 .navigation {
-  background-color: #EEEEEE;
+  background-color: #F4F4F4;
   width: 100%;
   box-shadow: 0px 2px 5px #888888;
   clear:both;
@@ -145,6 +145,7 @@ a {
   margin-left: 20px;
   font-weight: 400;
   cursor: pointer;
+  letter-spacing: 1;
 }
 
 @media screen and (max-width: 640px){
