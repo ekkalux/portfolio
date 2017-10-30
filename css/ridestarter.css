@@ -84,7 +84,6 @@ p {
   .hero_container {
     padding-top: 20px;
     width: 100%;
-    margin: 0 auto;
   }
   .title_container {
     width: 100%;
@@ -92,6 +91,12 @@ p {
   .hero img {
     width: 80%;
     margin-left: 10%;
+  }
+  .title_container h1 {
+    font-size: 40px;
+  }
+  .title_container p {
+    font-size: 20px;
   }
 }
 
@@ -118,6 +123,7 @@ p {
   background-color: #F4F4F4;
   width: 100%;
   box-shadow: 0px 2px 5px #888888;
+  clear: both;
 }
 
 .navigation h2 {

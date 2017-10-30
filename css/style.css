@@ -50,6 +50,7 @@ hr {
   top: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
+  width: 70%;
 }
 
 .hero_container h1 {
@@ -437,6 +438,9 @@ hr {
     margin-top: 0;
     margin-bottom: 40px;
   }
+  .ridestarter_text p {
+    text-align: center;
+  }
   .simplebox_container img {
     width: 100%;
   }
@@ -445,6 +449,9 @@ hr {
     margin-top: 0;
     margin-bottom: 40px;
   }
+  .simplebox_text p{
+    text-align: center;
+  }
   .more_projects img {
     width: 100%;
   }
@@ -452,6 +459,9 @@ hr {
     width: 100%;
     margin-top: 0;
     margin-bottom: 40px;
+  }
+  .more_projects_text p {
+    text-align: center;
   }
 }
 
