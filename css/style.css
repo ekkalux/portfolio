@@ -92,8 +92,8 @@ hr {
 
 .top_button_container {
   position: absolute;
-  right: 100px;
-  top: 40px;
+  right: 5%;
+  top: 5%;
 }
 
 .button_contact {
@@ -134,6 +134,14 @@ hr {
    color: white;
 }
 
+@media screen and (max-width: 640px) {
+  .hero_container h1 {
+    font-size: 42px;
+  }
+  .hero_container p {
+    font-size: 22px;
+  }
+}
 
 
 /* ABOUT */
@@ -176,7 +184,8 @@ hr {
 @media screen and (max-width: 640px) {
   .about_container p {
     font-size: 22px;
-    width: 100%;
+    width: 90%;
+    text-align: center;
   }
 }
 
@@ -534,7 +543,15 @@ hr {
   cursor: pointer;
 }
 
-
+@media screen and (max-width: 640px) {
+  .contact_container {
+    width: 80%;
+  }
+  .contact_container p {
+    font-size: 22px;
+    text-align: center;
+  }
+}
 
 
 /* CONTACT */
@@ -569,7 +586,7 @@ hr {
   letter-spacing: 5px;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 640px)  {
   .right_footer {float: none;text-align: center; margin-top: 20px;}
   .left_footer {float: none;}
 }
