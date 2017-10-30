@@ -49,7 +49,7 @@ hr {
   left: 0;
   right: 0;
   margin: 0 auto;
-  top: 240px;
+  top: 30%;
   position: absolute;
 }
 
@@ -138,23 +138,9 @@ hr {
 @media screen and (max-width: 640px) {
   .top_button_container {right: 30px;}
   .hero_container {
-    top: 90px;
+    top: 25%;
   }
-  .hero_container p {
-    font-size: 20px;
-  }
-  .hero_container h1 {
-    font-size: 42px;
-  }
-  .button_resume {
-    width: 120px;
-  }
-  .button_contact {
-    width: 120px;
-  }
-  .button {
-    width: 120px;
-  }
+
 }
 
 
@@ -193,6 +179,13 @@ hr {
   margin: 0 auto;
   line-height: 50px;
   padding-bottom: 60px;
+}
+
+@media screen and (max-width: 640px) {
+  .about_container p {
+    font-size: 22px;
+    width: 100%;
+  }
 }
 
 
