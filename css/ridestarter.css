@@ -11,7 +11,14 @@ hr {
 
 p {
   font-family: Noto Sans, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: Cabin, sans-serif;
+
 }
 
 /** HERO **/
@@ -163,15 +170,6 @@ p {
   width: 70%;
 }
 
-.summary_container h1 {
-  font-size: 42px;
-  font-family: cabin, sans-serif;
-}
-
-.summary_container p {
-  font-size: 20px;
-  text-align: left;
-}
 
 /** SUMMARY **/
 
@@ -192,7 +190,7 @@ p {
 }
 
 .solution_container h1 {
-  font-size: 42px;
+  font-size: 32px;
   font-family: cabin, sans-serif;
   color: #232323;
 }
@@ -210,11 +208,6 @@ p {
   text-align: center;
   margin: 0 auto;
   width: 70%;
-}
-
-.research_container h1 {
-  font-size: 42px;
-  font-family: cabin, sans-serif;
 }
 
 .survey_findings {
@@ -319,11 +312,6 @@ p {
   padding-bottom: 20px;
 }
 
-.design_container h1 {
-  font-size: 42px;
-  font-family: cabin, sans-serif;
-}
-
 .user_flow {
   text-align: left;
   font-size: 26px;
@@ -401,11 +389,6 @@ p {
   width: 70%;
   padding-top: 10px;
   padding-bottom: 20px;
-}
-
-.implement_container h1 {
-  font-size: 42px;
-  font-family: cabin, sans-serif;
 }
 
 .user_testing {
@@ -590,12 +573,6 @@ p {
   padding-top: 10px;
   font-size: 26px;
   font-family: cabin, sans-serif;
-}
-
-.final_container h1 {
-  font-size: 42px;
-  font-family: cabin, sans-serif;
-  text-align: center;
 }
 
 .final_container p {
