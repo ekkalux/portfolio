@@ -11,18 +11,18 @@ hr {
   height: 0;
   border: 0;
   border-top:2px solid #1A505A;
-  margin-top: -35px;
+  margin-top:-20px;
   margin-bottom: 40px;
-  width: 150px;
+  width: 80px;
 }
 
 #hr_about {
   height: 0;
   border: 0;
-  border-top:2px solid white;
-  margin-top: -35px;
+  border-top:2px solid #1A505A;
+  margin-top: -20px;
   margin-bottom: 40px;
-  width: 150px;
+  width: 80px;
 }
 
 /* NAVIGATION BAR */
@@ -148,45 +148,52 @@ hr {
 /* ABOUT */
 
 .about {
-  margin-top: 20px;
-  background-color: #1A505A;
-  box-shadow: 0px 5px 4px grey;
+  padding-top: 40px;
   clear: both;
-  margin-top: 500px;
 }
 
 .about_container {
   text-align: center;
+  width: 65%;
+  margin: 0 auto;
 }
 
 .about_container h1{
   letter-spacing: 5;
-  font-size: 48px;
+  font-size: 38px;
   font-family: helvetica, sans-serif;
   text-align: center;
-  color: #F8F8F8;
+  color: #1A505A;
   font-weight: 600;
   padding-top: 50px;
 }
 
-.about_container p {
-  letter-spacing: 3;
-  font-size: 26px;
+.about_left p {
+  letter-spacing: 1;
+  font-size: 18px;
   text-align: left;
-  color: #F8F8F8;
-  font-family: sans-serif;
-  font-weight:300;
-  width: 60%;
+  color: #232323;
+  font-family: 'Catamaran', Helvetica, sans-serif;
+  margin-bottom: 30px;
+  line-height: 1.8em;
+
+}
+
+
+.about_left h2 {
+  font-size: 24px;
+  text-align: left;
+  color: #232323;
+  font-family: 'Catamaran', Helvetica, sans-serif;
   margin: 0 auto;
-  line-height: 50px;
-  padding-bottom: 60px;
+
 }
 
 @media screen and (max-width: 640px) {
   .about_container p {
     font-size: 22px;
-    width: 90%;
-    text-align: center;
+    width: 100%;
+    text-align: left;
   }
 }
 
@@ -196,12 +203,12 @@ hr {
 /* PROJECTS */
 
 .projects {
-  margin-top: 80px;
+  padding-top: 40px;
 }
 
 .projects h1 {
   letter-spacing: 5;
-  font-size: 48px;
+  font-size: 38px;
   font-family: helvetica, sans-serif;
   text-align: center;
   color: #1A505A;
@@ -224,8 +231,8 @@ hr {
 }
 
 .ridestarter_text h1 {
-  letter-spacing: 5;
-  font-size: 42px;
+  letter-spacing: 4;
+  font-size: 34px;
   font-family: helvetica, sans-serif;
   color: #75B46F;
   font-weight: 600;
@@ -233,20 +240,20 @@ hr {
 
 .ridestarter_text h2 {
   font-size: 18px;
-  font-family: helvetica, sans-serif;
+  font-family: 'Catamaran', Helvetica, sans-serif;
   color: #232323;
   font-weight: 400;
-  margin-top: -30px;
+  margin-top: -20px;
   text-align: center;
   letter-spacing: 1;
 }
 
 .ridestarter_text p {
-  letter-spacing: 2;
-  font-size: 22px;
-  text-align: left;
+  letter-spacing: 1;
+  font-size: 20px;
+  text-align: center;
   color: #232323;
-  font-family: sans-serif;
+  font-family: 'Catamaran', Helvetica, sans-serif;
   width: 75%;
   margin: 0 auto;
   line-height: 30px;
@@ -294,8 +301,8 @@ hr {
 }
 
 .simplebox_text h1 {
-  letter-spacing: 5;
-  font-size: 42px;
+  letter-spacing: 4;
+  font-size: 34px;
   font-family: helvetica, sans-serif;
   color: #7D9DBD;
   font-weight: 600;
@@ -303,20 +310,20 @@ hr {
 
 .simplebox_text h2 {
   font-size: 18px;
-  font-family: helvetica, sans-serif;
+  font-family: 'Catamaran', Helvetica, sans-serif;
   color: #232323;
   font-weight: 400;
-  margin-top: -30px;
+  margin-top: -20px;
   text-align: center;
   letter-spacing: 1;
 }
 
 .simplebox_text p {
-  letter-spacing: 2;
-  font-size: 22px;
-  text-align: left;
+  letter-spacing: 1;
+  font-size: 20px;
+  text-align: center;
   color: #232323;
-  font-family: sans-serif;
+  font-family: 'Catamaran', Helvetica, sans-serif;
   font-weight:400;
   width: 75%;
   margin: 0 auto;
@@ -374,8 +381,8 @@ hr {
 }
 
 .more_projects_text h1 {
-  letter-spacing: 5;
-  font-size: 42px;
+  letter-spacing: 4;
+  font-size: 34px;
   font-family: helvetica, sans-serif;
   color: #1A505A;
   font-weight: 600;
@@ -383,20 +390,20 @@ hr {
 
 .more_projects_text h2{
   font-size: 18px;
-  font-family: helvetica, sans-serif;
+  font-family: 'Catamaran', Helvetica, sans-serif;
   color: #232323;
-  font-weight: 400;
-  margin-top: -30px;
+  font-weight: 400px;
+  margin-top: -20px;
   text-align: center;
   letter-spacing: 1;
 }
 
 .more_projects_text p {
-  letter-spacing: 2;
-  font-size: 22px;
-  text-align: left;
+  letter-spacing: 1;
+  font-size: 20px;
+  text-align: center;
   color: #232323;
-  font-family:helvetica, sans-serif;
+  font-family: 'Catamaran', Helvetica, sans-serif;
   width: 75%;
   margin: 0 auto;
   line-height: 30px;
@@ -503,12 +510,13 @@ hr {
 /* CONTACT*/
 
 .contact {
-  margin-top: 70px;
+  padding-top: 40px;
+  clear: both;
 }
 
 .contact h1 {
   letter-spacing: 5;
-  font-size: 48px;
+  font-size: 38px;
   font-family: helvetica, sans-serif;
   text-align: center;
   color: #1A505A;
@@ -524,14 +532,14 @@ hr {
 }
 
 .contact_container p {
-  letter-spacing: 3;
-  font-size: 26px;
+  letter-spacing: 1;
+  font-size: 18px;
   text-align: left;
   color: #232323;
-  font-family: sans-serif;
+  font-family: 'Catamaran', Helvetica, sans-serif;
   font-weight:400;
   margin: 0 auto;
-  line-height: 50px;
+  line-height: 1.8em;
   padding-bottom: 20px;
 }
 
