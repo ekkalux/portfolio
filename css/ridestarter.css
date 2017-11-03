@@ -22,7 +22,7 @@ h1 {
 }
 
 ul li {
-  margin: 10px 0;
+  margin: 15px;
   line-height: 1.5;
   font-size: 18px;
   font-family: 'Catamaran', Helvetica, sans-serif;
@@ -32,6 +32,11 @@ ul li {
 
 .underline_black {
   border-bottom: 2px solid #232323;
+}
+
+a {
+  color: #75B46F;
+  text-decoration: none;
 }
 
 
@@ -44,7 +49,7 @@ ul li {
 }
 
 .hero_container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   padding-top: 100px;
 }
@@ -65,8 +70,9 @@ ul li {
   font-size: 48px;
   font-family: 'Catamaran', Helvetica, sans-serif;
   text-align: center;
-  color: #232323;
+  color: #75B46F;
   font-weight: 600;
+  margin-bottom: 0px;
 }
 
 .title_container p {
@@ -78,12 +84,13 @@ ul li {
   width: 80%;
   margin: 0 auto;
   line-height: 30px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .arrow_back_container {
-  color: black;
+  padding: 40px 0px 0px 40px;
 }
+
 
 .fa-arrow-circle-o-left {
   color: black;
@@ -231,6 +238,15 @@ ul li {
   text-align: center;
 }
 
+@media screen and (max-width: 640px) {
+  .solution_container {
+    width: 100%;
+  }
+  .problem_container {
+    width: 100%;
+  }
+}
+
 /** SOLUTION **/
 
 /** RESEARCH **/
@@ -250,6 +266,7 @@ ul li {
   text-align: left;
   font-size: 22px;
   font-family: 'Catamaran', Helvetica, sans-serif;
+  padding-top: 20px;
 }
 
 .survey_findings a{
@@ -280,7 +297,7 @@ ul li {
   text-align: left;
   font-size: 22px;
   font-family: cabin, sans-serif;
-  margin-top: 40px;
+  padding-top: 20px;
   margin: 0 auto;
 }
 
@@ -311,6 +328,7 @@ ul li {
   font-size: 22px;
   font-family: cabin, sans-serif;
   margin: 0 auto;
+  padding-top: 20px;
 
 }
 
@@ -322,9 +340,16 @@ ul li {
 
 
 @media screen and (max-width: 640px) {
+
   .personas img {
     width: 100%;
     margin-top: 20px;
+  }
+  .survey_findings img {
+    display: none;
+  }
+  .competitive_analysis img {
+    display: none;
   }
 }
 
@@ -355,6 +380,7 @@ ul li {
   text-align: left;
   font-size: 22px;
   font-family: cabin, sans-serif;
+  padding-top: 20px;
 }
 
 .user_flow p {
@@ -381,8 +407,8 @@ ul li {
 .branding {
   text-align: left;
   font-size: 22px;
-  font-family: Noto Sans, sans-serif;
-  margin-top: 40px;
+  font-family: 'Catamaran', Helvetica, sans-serif;
+  padding-top: 40px;
 }
 
 .branding p {
@@ -399,8 +425,8 @@ ul li {
 .low_mockups {
   text-align: left;
   font-size: 22px;
-  font-family: cabin, sans-serif;
-  margin-top: 40px;
+  font-family: 'Catamaran', Helvetica, sans-serif;
+  padding-top: 40px;
 }
 
 .low_mockups p{
@@ -430,38 +456,28 @@ ul li {
   padding-bottom: 20px;
 }
 
+.implement_container img {
+  width: 100%;
+}
+
+.highlights h1 {
+  margin-left:50px;
+  font-size: 20px;
+  border-bottom: 2px solid #232323;
+  margin-right: 50px;
+}
+
 .user_testing {
   text-align: left;
-  font-size: 26px;
+  font-size: 22px;
   font-family: cabin, sans-serif;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .user_testing p {
   text-align: left;
   font-weight: normal;
 }
-
-.quotes {
-  background-color: #75B46F;
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 50px;
-  box-shadow: 0px 2px 5px #888888;
-}
-
-.quotes p {
-  color: white;
-  font-size: 22px;
-  font-family: helvetica, sans-serif;
-  text-align: left;
-  width: 70%;
-  margin: 0 auto;
-  font-weight: 300;
-  font-style: italic;
-  padding-top: 20px;
-}
-
 
 
 @media screen and (max-width: 640px) {
@@ -473,17 +489,16 @@ ul li {
 
 /** IMPLEMENTATION **/
 
-.final {
-  clear: both;
-}
-
 .final_container {
-  text-align: left;
   margin: 0 auto;
   width: 60%;
   padding-top: 10px;
-  font-size: 26px;
+  font-size: 22px;
   font-family: cabin, sans-serif;
+}
+
+.final_container h1 {
+  text-align: left;
 }
 
 .final_container p {
@@ -492,9 +507,9 @@ ul li {
 
 .final_container a {
   text-decoration: none;
-  font-size: 22px;
+  font-size: 20px;
   text-align: left;
-  font-family: helvetica, sans-serif;
+  font-family: 'Catamaran', Helvetica, sans-serif;
   color: #75B46F;
 }
 
@@ -505,27 +520,20 @@ ul li {
 }
 
 .conclusion {
-  background-color: #75B46F;
-  width: 100%;
+  background-color: #F8F8F8;
+  color: white;
+}
+
+.conclusion_container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0 40px 0;
   color: #232323;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  clear: both;
-  box-shadow: 0px 2px 5px #888888;
 }
 
-.conclusion h1 {
-  font-size: 26px;
-  width: 70%;
-  margin: 0 auto;
-  font-family: cabin, sans-serif;
-}
-
-.conclusion p {
-  text-align: left;
-  width: 70%;
-  margin: 0 auto;
-  padding-top: 20px;
+.conclusion_container h1 {
+  font-size: 24px;
 }
 
 @media screen and (max-width: 640px) {

@@ -29,7 +29,7 @@
 
 <section class="hero">
   <div class="arrow_back_container">
-    <a href="index.html"><i class="fa fa-arrow-circle-o-left fa-4x"></i></a>
+    <a href="index.html"><i class="fa fa-arrow-circle-o-left fa-4x" style="color:#7D9DBD"></i></a>
   </div>
   <div class="hero_container">
     <img src="images/simplebox/simplebox_background.png"></img>
@@ -37,9 +37,6 @@
       <h1> SIMPLEBOX </h1>
       <p>A web application that allows users to collect information and store it in a centralized location.<p/>
 
-      <div class="arrow_down_container">
-        <i class="fa fa-arrow-circle-o-down fa-lg"></i>
-      </div>
     </div>
   </div>
 
@@ -50,13 +47,11 @@
 <!-- NAVIGATION NAVIGATION NAVIGATION -->
 
 <nav class="navigation">
-  <h2 id="summary"> SUMMARY </h2>
-  <h2 id="solution"> SOLUTION </h2>
-  <h2 id="research"> UX RESEARCH </h2>
-  <h2 id="design"> BRANDING </h2>
+  <h2 id="summary"> OVERVIEW </h2>
+  <h2 id="solution"> RESEARCH </h2>
+  <h2 id="research"> DESIGN </h2>
   <h2 id="usability"> USABILITY TESTING </h2>
-  <h2 id="high_fidelity"> HIGH FIDELITY PROTOTYPES </h2>
-  <h2 id="results"> RESULTS </h2>
+  <h2 id="results"> CONCLUSION </h2>
 </nav>
 
 <!-- NAVIGATION NAVIGATION NAVIGATION -->
@@ -65,7 +60,7 @@
 
 <section class="summary">
   <div class="summary_container">
-    <h1> SUMMARY </h1><hr>
+    <h1><span class="underline_black"> SUMMARY </span> </h1>
     <p> simpleBox is a SaaS web application which allows users to collect information and store it in a
       single place. Users can create documents, store images, links to websites, and
       collaborate with others. </p>
@@ -74,69 +69,81 @@
 
 <!-- SUMMARY SUMMARY SUMMARY -->
 
-<!-- SOLUTION SOLUTION SOLUTION -->
+<!-- SOLUTION RESERACH SOLUTION -->
 
-<section class="solution">
-  <div class="solution_container">
-    <h1> SOLUTION </h1>
-    <p> Due to the increase amount of mobile collaboration tools, technological jargon and cluttered features deter
+<section class="problem">
+  <div class="problem_container">
+    <h1> <span class="underline_black"> PROBLEM </span> </h1>
+    <p>Due to the increase amount of mobile collaboration tools, technological jargon and cluttered features deter
       users from using the specific product. In addition, people have a difficult time remembering
-      where they saved notes, images, and links when using some of these tools. Simplebox simplifies this and creates a tool that is easily accessible for all users to conveniently save and
-      share content across multiple devices.
+      where they saved notes, images, and links when using some of these tools. </p>
   </div>
 </section>
 
-<!-- SOLUTION SOLUTION SOLUTION -->
+<section class="solution">
+  <div class="solution_container">
+    <h1> <span class="underline_black"> SOLUTION </span></h1>
+    <p>  simpleBox simplifies and creates a cloud-based file storage service that is easily accessible for all users to conveniently save and
+      share content and collaborate with other users across multiple devices. <a href="https://invis.io/9ME9YEZRD"> View the clickable prototypes here. </a></p>
+  </div>
+</section>
+
+<!-- SOLUTION RESEARCH SOLUTION -->
 
 
 <section class="research">
   <div class="research_container">
-    <h1> UX RESEARCH </h1><hr>
-    <p> User surveys and user stories are used to decide what features are necessary
+    <h1>  UX RESEARCH  </h1><hr>
+    <p> User surveys and user stories were used to decide what features are necessary
       for simpleBox. To do that, I sent out a survey to find out what users were proactively
        using, their habits, and their competition in content and devices use.
        From the data that I’ve collected, I was able to come up with appriopriate
        user stories and personas to help me understand users’ goals, behaviors, and
-       how they will interact with the application. </p>
-    <img src="images/simplebox/personas.png">
+       how they will interact with the application. <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWYnTRaJtMD_MQmnj9SEyzbvujD2AoGVLqC7JIrZ8Q-voMyw/viewform" target="_blank">
+       Click here to view the survey questions.</a> </p>
 
-  </div>
+    <img src="images/simplebox/user_stories.png">
 
-  <div class="research_results">
-    <p> 63% of users typically use their smart phones to browse the net. </p>
-    <p> 50% of users typically use their laptop to browse the net. </p>
-    <p> 63% of users save online content by bookmarking it in their browser </p>
-    <p> What most users like about using tools to bookmark is that it is convenient and
-      integrated across all of their devices </p>
-    <p> What most users don't like about these tools is that most of them are complicated
-      and has too many features. </p>
-  </div>
-
-  <div class="research_container_2">
+    <div class="highlights">
+      <ul>
+        <li> 63% of users typically use their smart phones to browse the net. </li>
+        <li> 50% of users typically use their laptop to browse the net. </li>
+        <li> 63% of users save online content by bookmarking it in their browser </li>
+        <li> What most users like about using tools to bookmark is that it is convenient and
+        integrated across all of their devices </li>
+        <li> What most users don't like about these tools is that most of them are complicated
+        and has too many features. </li>
+      </ul>
+    </div>
     <p>Based on the survey, I was able to determine that simpleBox needs to be accessbile
       across multiple platforms because majority of users use laptop or smartphones to browse
       the internet. Additionally, organization and centralization seems to be the main theme
       from the survey. Many users feel that some of the tools they use leads to a clutter
       space, particulary bookmarking. Therefore, it is important that simpleBox provides a
       space of organization for the end-users. </p>
-  </div>
 
-  <div class="user_flow"> <b>User Flow </b> <hr>
-    <p>From the research, I made a list of user stories to help me create user flows.
-      In the diagram, I focus on the different user experience for both new and returning
-      users, with several similarities. This process helped me craft a minimum viable
-      product for simpleBox. </p>
-    <p><a href="https://drive.google.com/file/d/0B0bktw2AN4LKdGxCVUhjdExSS3c/view?usp=sharing" target="_blank">
-      Click here to view the user flow </a><p>
-
-    <img id="normal_flow" src="images/simplebox/simplebox_user_flow.png">
-    <img id="returning_flow" src="images/simplebox/simplebox_user_flow_returning.png">
   </div>
 
 </section>
 
+
+  <section class="user_flow">
+    <div class="user_flow_container">
+      <h1>INFORMATION ARCHITECTURE</h1> <hr>
+      <p>From the research, I made a list of user stories to help me create user flows.
+        In order to easily identify the steps taken to the end-process, I focus on the different user experience for both new and returning
+        users, with several similarities. This process helped me craft and prioritize the minimum viable
+        product features for simpleBox.<a href="https://drive.google.com/file/d/0B0bktw2AN4LKdGxCVUhjdExSS3c/view?usp=sharing" target="_blank">
+        Click here to view the user flow </a> </p>
+        <img id="normal_flow" src="images/simplebox/simplebox_user_flow.png">
+        <img id="returning_flow" src="images/simplebox/simplebox_user_flow_returning.png">
+    </div>
+  </section>
+
+
+
 <section class="branding">
-  <h1> BRANDING AND TYPOGRAPHY </h1><hr>
+  <h1>BRANDING AND TYPOGRAPHY </h1> <hr>
   <p> The next step in building the application is deciding on the brand and typography.
     The main goal of this web app is to provide a collection of notes, images, and links
     where users can store and share. Therefore, I wanted the brand and typography to
@@ -146,21 +153,35 @@
 
 
 <section class="low_fidelity">
-  <h1> USABILITY TESTING </h1><hr>
+  <h1>USABILITY TESTING </h1><hr>
   <p>After defining the brand identity for simpleBox, I created low-fidelity/medium
-    fidelity wireframes with balsamiq and photoshop to <b>test on usertesting.com and
-    in-person </b> to see whether the product was user friendly to the users. These are
+    fidelity wireframes with balsamiq and photoshop to test on usertesting.com and
+    in-person to see whether the product was user friendly to the users. These are
     the main questions that I asked. </p>
-  <p><b>1. Look around and talk about what you think this is about? What can you do
-    here? What is it for? What strikes you about it? </b></p>
-  <p><b> 2. Think of something you want to do here. Try and do that thing. </p>
-  <p>3. What, if anything, do you like or dislike? Since this isn’t a final version,
-    what would you like to see in the final version. </b> </p>
-  <p>Based on the test, users understand full well what the application does, referring
-    to similarities to other tools such as dropbox. They also like the simplicity of the design and logo. </p>
+  <div class="highlights">
+    <ul>
+      <li>Look around and talk about what you think this is about? What can you do
+        here? What is it for? What strikes you about it? </li>
+      <li>Think of something you want to do here. Try and do that thing. </li>
+      <li>What, if anything, do you like or dislike? Since this isn’t a final version,
+        what would you like to see in the final version. </li>
+    </ul>
+  </div>
 
-  <a href="http://www.usertesting.com/v/5adc95f3-123c-44f8-a895-7e87d103c3be?encrypted_video_handle=4WyztmbyzJ7n2ccqSBtaWg&shared=hiWH_1Eg" target="_blank">
-    Click here to view the full video </a>
+  <div class="highlights">
+    <h1>Insights from usability testing </h1>
+    <ul>
+      <li> Based from the in-person testing with some of my colleagues, users had a positive response to the application and were able to navigate through
+        the site smoothly. They also liked the simplicity of the site and the logo.  </li>
+      <li> To gain more insights about the application, I also conduced an unmoderated usability testing on Peek. Based from the
+        test, user was able to quickly idenify what the application does, referring to similiarites to other tools such as dropbox, where you can store
+        and save documents. Since the test was unmoderated, I wasn't able to follow up with questions or answer some of the concerns that
+        the tester had. Although the user might not have known that this is a medium-fidelity prototype, she was confused about the color scheme of
+        black, white, and gray. However, it was significant that the tester understood the functionality of simpleBox. <a href="http://www.usertesting.com/v/5adc95f3-123c-44f8-a895-7e87d103c3be?encrypted_video_handle=4WyztmbyzJ7n2ccqSBtaWg&shared=hiWH_1Eg" target="_blank">
+          Click here to view the full video </a> </li>
+    </ul>
+  </div>
+
 
   <img src="images/simplebox/user_testing_video.png">
   <img src="images/simplebox/simplebox_low.png">
@@ -170,25 +191,37 @@
 <section class="high_fidelity">
   <h1> HIGH-FIDELITY PROTOTYPES </h1><hr>
   <p>After going through user testing for the low/medium prototypes and making iteration based on feedback, I used
-    Sketch to create high-fidelity prototypes. Then I made a clickable prototypes on InVision and asked users to
-    navigate through the prototypes and provide feedback. Below are the discussion questions
-    I asked during the <b>contextual interview: </b> </p>
+    Sketch to create high-fidelity prototypes. Then I made another clickable prototypes on InVision and asked a few more users to
+    navigate through the prototypes and provide feedback. I also conducted another unmoderated test. <a href="http://www.usertesting.com/v/f0ad361e-6fcd-4a05-8e1c-5c977715689e?encrypted_video_handle=tHdsGv9x0MymeSOqYu_RvQ&shared=M2VgP9nf">
+    You can view the full video here.</a> Below are the discussion questions
+    I asked during the usability testing. </p>
 
-  <p><b>1. What do you make of the page? What strikes you about it?</b> </p>
-  <p><b>2. What frustrations do you have when navigating through the pages?</b> </p>
-  <p><b>3. What are some things that you like about the website?</b> </p>
-  <p><b>4. Do you see yourself using this application? Why or Why not?</b> </p>
-  <p>Overall, users thought that the experience was pleasing and that the application is presentable in a simplified, yet professional design. </p>
+  <div class="highlights">
+    <ul>
+      <li> What do you make of the page? What strikes you about it?</li>
+      <li> What frustrations do you have when navigating through the pages? </li>
+      <li> What are some things that you like about the website? </li>
+      <li> From the landing page, sign into simplebox, and create either a note, image, or link. Were there
+      any frustrations from doing so?</li>
+    </ul>
+  </div>
 
-  <p>However, I found out that there was a <b>slight delay when users were attempting to add content to simpleBox.</b> To tackle this issue, I created two
-    versions of the dashboard with two different placements of the add button. Afterwards, I conducted
-     a <b>preference test on UsabilityHub </b> to see which version is more intuitive.
+  <p>Overall, users thought that the experience was pleasing and that the application is presentable in a simplified, yet professional design.
+  The responses were more convincing when testing the high-fidelity wireframes because users were able to the final visual of the application. When asked to sign in and create
+either a note, image, or link, users had no trouble taking that action and were able to do so without any frustrations.</p>
+
+  <div class="highlights">
+    <p> From the testing, I found out that there was a slight delay when users were attempting to add content to simpleBox. To tackle this issue, I created two
+      versions of the dashboard with two different placements of the add button. Afterwards, I conducted
+     a preference test on UsabilityHub to see which version is more intuitive.
      Based on the results, version one (original) performs better than version two by 80:20.
      The test had 10 responses which may not be the best representative of the majority. Although
      the add button in version two is bigger, it was slightly more difficult to spot according to
-     some users. Therefore, it was safe to conclude that the placement of the add button in version one is more intuitive. </p>
+     some users. Therefore, it was safe to conclude that the placement of the add button in version one is more intuitive.
+     <a href="https://usabilityhub.com/tests/b1c1c3ff4ad7/results/61a6b7b84eec" target="_blank"> Click here to view the results
+       of the preference test </a> </p>
+  </div>
 
-  <a href="https://usabilityhub.com/tests/b1c1c3ff4ad7/results/61a6b7b84eec" target="_blank"> Click here to view the results for the preference test </a>
   <img src="images/simplebox/preference_test.png">
 </section>
 
@@ -196,15 +229,13 @@
   <h1> FINAL PRODUCT </h1><hr>
   <div class="conclusion">
     <p>After researching, user testing, and designing through Balsamiq, Illustrator, and
-      Photoshop/Sketch, the final product is completed with harmoniously-working colors and
+      Photoshop/Sketch, the final product was completed with harmoniously-working colors and
       design elements that achieve simpleBox’s goal in creating a friendly user experience in
       collecting and sharing contents. </p>
     <p>This was my first project going through the different UX process as a designer. This project
       had made me realize how important it is to test often and early to create an intuitive user experience
       for potential end-users. Designing is more than just creating visually appealing elements.
-      Data and research are the main components to synthesizing the design elements. </p>
-
-    <a href="https://invis.io/8PC2WA7AH"> Click here to view the interactive prototype </a>
+      Data and research are the main components to synthesizing the design elements. <a href="https://invis.io/8PC2WA7AH"> Click here to view the interactive prototype </a> </p>
 
     <img src="images/simplebox/final_product.png">
 
@@ -214,20 +245,13 @@
     <h1> <b>Front-End Development</b> </h1> <hr>
     <p> <b>HTML, CSS, and Javascript</b> were used in conjunction to develop the homepage of Simplebox.
       Because Simplebox is targeted for users to access through different devices, I designed the
-      homepage as mobile-first to ensure its responsiveness across different outlets. </p>
-    <a href=https://ekkalux.github.io/simpleBox/ target="_blank"> You can view the homepage development here </a>
+      homepage as mobile-first to ensure its responsiveness across different outlets. <a href="https://ekkalux.github.io/simpleBox/" target="_blank"> You can view the homepage development here </a> </p>
 
     <img src="images/simplebox/code.png">
   </div>
 
 </section>
 
-<section class="contact">
-  <hr>
-  <h1> Contact me! </h1>
-  <p> Like my project and want to talk? Send me a message!</p>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSegqfUFqfZbNikQQFP_JDGc8hcajth3xduNM2hp5D2OuUd3BQ/viewform" target="_blank"><button class="button_touch"> Contact Me</button></a>
-</section>
 
 <section class="footer">
   <div class="left_footer">

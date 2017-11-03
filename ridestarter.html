@@ -27,7 +27,7 @@
 
 <section class="hero">
   <div class="arrow_back_container">
-    <a href="index.html"><i class="fa fa-arrow-circle-o-left fa-4x"></i></a>
+    <a href="index.html"><i class="fa fa-arrow-circle-o-left fa-4x" style="color:#75B46F"></i></a>
   </div>
 
   <div class="hero_container">
@@ -74,7 +74,7 @@
     <h1> <span class="underline_black">SOLUTION</span></h1>
     <p>The goal of Ridestarter is to centralize charity bike rides across the world and allow users to crowd-source
       for ride projects. In addition to attracting the cyclist community, Ridestarter allows donors and fundraisers to come
-      together in supporting charity rides for causes they care about. </p>
+      together in supporting charity rides for causes they care about. <a href="https://invis.io/72E98NCE6" target="_blank"> View the clickable prototypes here. </a> </p>
   </div>
 
 </section>
@@ -87,8 +87,7 @@
       <p> At this initial stage, it was important to gain a better understanding of users' behavior of
         donating to a charity or spearheading a fundraiser. The survey was aimed towards a group of people
       who have made donations, created fundraiser projects, participated in charity bike ride and also users
-      who have neither fundraised or donated. These results were important in deciding not only the features of Ridestarter, but also what
-        is necessary in order to create a successful crowdfunding application.  <a href="https://docs.google.com/spreadsheets/d/1I71riCTMi-fcfzlis8xqgAgljlUzt9PmAgFs3RwU1fQ/edit?usp=sharing" target="_blank">
+      who have neither fundraised or donated.  <a href="https://docs.google.com/spreadsheets/d/1I71riCTMi-fcfzlis8xqgAgljlUzt9PmAgFs3RwU1fQ/edit?usp=sharing" target="_blank">
           Click here to view the survey responses </a> </p>
       <div class="highlights">
         <ul>
@@ -101,6 +100,7 @@
           popular response is that they feel that their donation is too small to make a difference. </li>
           <li> When creating a campaign, 67% of respondents say that sharing their campaign through social media or email is the most
             important.
+          <li> 61% of respondents say that they rarely donate.
         </ul>
       </div>
 
@@ -116,6 +116,11 @@
             comfortable fundraising if the project entice challenges rather than just "asking for money". </li>
         </ul>
       </div>
+
+      <p> The data revealed the users' attitudes and motives towards donating. Based from the survey, there seems
+        to be major theme of users skeptical of whether they're making an impact through donation. From this inference, It's also safe to conclude that
+      users typically make a one time donation to friends or family. These results were important in deciding not only the features of Ridestarter, but also what
+        is necessary in order to create a successful and trusting crowdfunding application.   </p>
       <img src="images/ridestarter/survey.png">
 
 
@@ -126,7 +131,7 @@
         they operate, their strengths/weaknesses, features, and differentiators. Based from the analysis, it was apparent that almost all crowdfunding sites strive for similiar
         features - progress meter and donation goals. Because Ridestarter is a charity bike crowdfunding source,
         it's important that the application contains features unique to charity bike rides as well as some of the
-          important crowdfunding elements.<a href="https://docs.google.com/spreadsheets/d/1f1FW3b75Uf-R_5KEUwpLFI_N9QV515_YGSm9SxUTedM/edit?usp=sharing" target="_blank">
+          important crowdfunding elements such as a progress bar and fundraising goal.<a href="https://docs.google.com/spreadsheets/d/1f1FW3b75Uf-R_5KEUwpLFI_N9QV515_YGSm9SxUTedM/edit?usp=sharing" target="_blank">
           You can take a closer look of the competitive analysis here. </a> </p>
 
       <img src="images/ridestarter/competitive_analysis.png" >
@@ -185,62 +190,66 @@
 <section class="implementation">
   <div class="implement_container">
     <h1> <span class="underline_black">GEARING THE DESIGN IMPLEMENTATION </span> </h1>
-    <div class="user_testing"> <b>User Testing</b>
-      <p> I conducted a <b>contextual interview </b> on four different users to get feedback on the clickable
-        prototypes in InVision. These are some of the most important guiding questions that I asked
+    <div class="user_testing"> <b>Usability Testing</b>
+      <p> Uesr testing was important to either gather design feedback or any errors that user experienced.
+        For this process, I conducted both a contextual interview on four different users and an unmoderately usability testing on usertesting.com
+         to get feedback on the clickable prototypes that I created in InVision. These are some of the most important guiding questions that I asked
         during the testing as they went through the website: </p>
       <div class="highlights">
         <ul>
           <li> Look at the homepage. What do you think this website is about? </li>
-          <li> Find a charity project and make a donation. </li>
+          <li> Starting from the landing page, find a charity project and make a donation. </li>
           <li> How do you feel about the checkout process? Do you feel it is intuitive and trustworthy? </li>
       </ul>
     </div>
 
     <div class="highlights">
-      <p> <b>Main critiques from the testing</b> </p>
+      <h1> Insights gained from usability testing</h1>
       <ul>
+        <li> For the first set of user testings, I reached out to some of my colleagues
+          and and had them review my design in-person. Some of the feedback I receieved varied from things such as adjusting sizes
+          in certain elements or changing the wordings in the hero page.
+
         <li> Some users pointed out that when they wanted to navigate back to
           My Account from the Creating a Fundraiser page, there were no option to do that unless you
-          click on My Account on the navigation bar. <b>I added a back button both on the Creating a
-          Fundraiser page and Guest Checkout page. </b> </li>
-         <li> An interesting observation was that user #1 wanted to donate immediately
+          click on My Account on the navigation bar. To ensure a successful user experience, I added a back button both on the Creating a
+          Fundraiser page and Guest Checkout page.  </li>
+
+         <li> An interesting observation was that one tester wanted to donate immediately
            right after discovering it, but the click directs him to the description page instead.
-           <b>I took this input and added a donate button under each projects in both the homepage
-           and the discover page.</b> </li>
+           I took this input and added a donate button under each project cards in both the homepage
+           and the discover page.</li>
+
+          <li> In addition to testing in-person, I conducted an unmoderated remote usability testing on usertesting.com.
+          The insight I gained from this method was valuable to eliminate any chance of biases. From the testing,
+          the user quickly identified the landing page as crowdfunding page for charity bike rides. Judging from the hero image,
+          the user thought that site is about a sporting company advertising their clothing brand. But later otherwise after reading some of the texts
+          and scrolling down the page. After reviewing the landing page, users were then asked to make a donation starting from the homepage. As
+          they navigate through a charity project, users liked the destination map as it gives them a visual idea of how far
+          the ride would be. <a href="http://www.usertesting.com/v/0c0394a6-83ea-4a11-bedf-8691164ae105?encrypted_video_handle=ecowOnepaNaXBz98erLumg&shared=OLoy9ZlW" target='_blank'> View the video here!</a> </li>
         </ul>
     </div>
+
+    <img src="images/ridestarter/ridestarter_video.png">
+
     </div>
   </div>
 
-  <div class="quotes">
-    <p>“As someone who is passionate about cycling, I could see myself using
-      this website to bring riders and non-riders together”</p>
-    <p>“The design is very clean and sleek...The color scheme and the homepage
-       are captivating and trustworthy.”</p>
   </div>
 
-
+  <div class="final_container"> <b>High-Fidelity Prototypes </b>
+    <p> With the insights gained from user research and usability testing, Ridestarter was solidify with
+      multiple sought out iterations, transforming it into high-fidelity prototypes. <a href="https://invis.io/Z2D6DKKTY" target="_blank">
+        You can check out Ridestarter's interactive prototype here. </a></p>
+    <img src="images/ridestarter/ridestarter_high.png">
   </div>
 
 </section>
 
 <section class="final">
-  <div class="final_container">
-    <h1><span class="underline_black">REACHING OUR FINAL DESTINATION</span></h1>
-      High Fidelity Mockups
-    <p>The solution from the preliminary user research and usability testing all
-      resulted in a responsive and streamlined crowdfunding charity ride web application.
-      I designed 24 high-fidelity wireframes in Sketch; below are some of the highlighted pages:</p>
-    <a href="https://invis.io/Z2D6DKKTY" target="_blank"> You can check out Ridestarter's interactive prototype here. </a>
-
-    <img src="images/ridestarter/ridestarter_high.png">
-
-  </div>
-
   <div class="conclusion">
-    <h1> Conclusion </h1>
-
+    <div class="conclusion_container">
+    <h1><span class="underline_black"> CONCLUSION</span></h1>
     <p>If given more time, I would love the opportunity to spend more time doing usability
       testing early during the low-fidelity wireframing phase. Psychologically, I feel
       less wedded to low-fidelity prototypes and am more likely to make the changes on
@@ -254,12 +263,15 @@
       users to use an application. Asking questions such as “Does this page follows the
        current trend in modernizing the style or buttons?” This could always be improved
        in any of my future design. </p>
+
+    </div>
   </div>
+
+
 
 </section>
 
 <section class="contact">
-  <hr>
   <h1> Contact me! </h1>
   <p> Like my project and want to talk? Send me a message!</p>
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSegqfUFqfZbNikQQFP_JDGc8hcajth3xduNM2hp5D2OuUd3BQ/viewform" target="_blank"><button class="button_touch"> Contact Me</button></a>

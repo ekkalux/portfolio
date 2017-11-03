@@ -534,7 +534,7 @@ hr {
 .contact_container p {
   letter-spacing: 1;
   font-size: 18px;
-  text-align: left;
+  text-align: center;
   color: #232323;
   font-family: 'Catamaran', Helvetica, sans-serif;
   font-weight:400;
@@ -549,7 +549,7 @@ hr {
   font-size: 20px;
   width: 150px;
   height: 53px;
-  border: solid #7D9DBD 2px;
+  border: solid #1A505A 2px;
   text-decoration: none;
   background: none;
   margin-top: 30px;
