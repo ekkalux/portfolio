@@ -95,7 +95,6 @@ a {
 
 @media screen and (max-width: 640px) {
   .hero_container {
-    padding-top: 0px;
     width: 100%;
   }
   .hero_content {
@@ -183,7 +182,8 @@ a {
 
 @media screen and (max-width: 640px) {
   .summary_container {
-    width: 80%;
+    width: 90%;
+    padding-top: 0px;
   }
 }
 
@@ -297,7 +297,6 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-
 }
 
 #returning_flow {
