@@ -25,6 +25,11 @@ hr {
   width: 80px;
 }
 
+a {
+  color:#1A505A;
+  text-decoration: none;
+}
+
 /* NAVIGATION BAR */
 
 .hero {

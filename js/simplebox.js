@@ -26,7 +26,7 @@ $("#research").click(function() {
 
 $("#design").click(function() {
   $('html,body').animate({
-      scrollTop: $(".branding").offset().top},
+      scrollTop: $(".user_flow").offset().top},
       'slow');
 });
 

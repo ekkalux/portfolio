@@ -36,9 +36,9 @@ $("#implementation").click(function() {
       'slow');
 });
 
-$("#results").click(function() {
+$("#conclusion").click(function() {
   $('html,body').animate({
-      scrollTop: $(".final").offset().top},
+      scrollTop: $(".conclusion").offset().top},
       'slow');
 });
 
