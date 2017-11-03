@@ -183,7 +183,7 @@ a {
 
 @media screen and (max-width: 640px) {
   .summary_container {
-    width: 90%;
+    width: 80%;
   }
 }
 
@@ -232,6 +232,15 @@ a {
   width: 60%;
   margin: 0 auto;
   font-family: 'Catamaran', Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 640px) {
+  .problem_container {
+    width: 100%;
+  }
+  .solution_container {
+    width: 100%;
+  }
 }
 
 
