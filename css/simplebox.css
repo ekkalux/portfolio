@@ -51,25 +51,34 @@ h4 {
 /** HERO **/
 
 .hero {
-  background-color: white;
+  background-image: url("../images/simplebox/simplebox_cover.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 80%;
   width: 100%;
 }
 
-.hero_container {
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 50px;
+.hero_overlay {
+  background-color: black;
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  opacity: 0.6;
 }
 
-.hero_container img {
-  width: 50%;
-  float: left;
+
+.hero_container{
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 100%;
 }
 
 .hero_content {
   width: 50%;
-  float: left;
+  margin: 0 auto;
 }
 
 .hero_content h1 {
@@ -77,7 +86,7 @@ h4 {
   font-size: 48px;
   font-family: 'Catamaran', Helvetica, sans-serif;
   text-align: center;
-  color: #7D9DBD;
+  color: white;
   font-weight: 600;
   margin-bottom: 0px;
 }
@@ -86,7 +95,7 @@ h4 {
   letter-spacing: 1;
   font-size: 22px;
   text-align: center;
-  color: #232323;
+  color: white;
   font-family: 'Catamaran', Helvetica, sans-serif;
   font-weight:400;
   line-height: 30px;
@@ -95,7 +104,9 @@ h4 {
 }
 
 .arrow_back_container {
-  padding: 40px 0px 0px 40px;
+  position: absolute;
+  top: 5% ;
+  left: 3%;
 }
 
 .arrow_down_container {

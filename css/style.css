@@ -236,7 +236,6 @@ a {
 .ridestarter_text {
   width: 55%;
   float: left;
-  margin-top: -30px;
 }
 
 .ridestarter_text h1 {
@@ -306,7 +305,6 @@ a {
 .simplebox_text {
   width: 55%;
   float: left;
-  margin-top: -30px;
 }
 
 .simplebox_text h1 {
@@ -386,7 +384,6 @@ a {
 .more_projects_text {
   width: 55%;
   float: left;
-  margin-top: -30px;
 }
 
 .more_projects_text h1 {
@@ -404,6 +401,7 @@ a {
   margin-top: -20px;
   text-align: center;
   letter-spacing: 1;
+  font-weight: 400;
 }
 
 .more_projects_text p {
