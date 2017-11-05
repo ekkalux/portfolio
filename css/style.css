@@ -361,7 +361,6 @@ a {
 .simplebox_container img{
   width: 45%;
   float: left;
-  background-image: url(../images/simplebox_laptop.png);
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 10px 10px 5px #888888;
