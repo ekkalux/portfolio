@@ -55,6 +55,23 @@ a {
   font-family: 'Catamaran', Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 640px) {
+  p {
+    font-size: 14px;
+  }
+  a {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  ul li {
+    font-size: 14px;
+    margin: 10px;
+  }
+
+}
+
 
 /** HERO **/
 
@@ -405,7 +422,6 @@ a {
 
 
 @media screen and (max-width: 640px) {
-
   .personas img {
     width: 100%;
     margin-top: 20px;
@@ -542,6 +558,15 @@ a {
 .user_testing p {
   text-align: left;
   font-weight: normal;
+}
+
+.iteration_images p {
+  text-align: center;
+  font-family: 'Catamaran', Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.8em;
+  color: grey;
+  margin-top:-5px;
 }
 
 
