@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-  $(".fa-arrow-circle-o-down").click(function() {
+  $(".fa-angle-double-down").click(function() {
     $('html,body').animate({
         scrollTop: $(".navigation").offset().top},
         'slow');
