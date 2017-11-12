@@ -68,7 +68,7 @@ a {
 }
 
 .hero_container p {
-  letter-spacing: 2;
+  letter-spacing: 3;
   font-size: 24px;
   text-align: center;
   color: #DDDDDD;
@@ -412,6 +412,55 @@ a {
   transform: translateY(-7px);
 }
 
+.gym {
+  clear: both;
+  padding-top: 80px;
+}
+
+.gym img {
+  width: 45%;
+  float: left;
+  background-image: url(../images/simplebox_laptop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.gym_text {
+  width: 55%;
+  float: left;
+}
+
+.gym_text h1 {
+  letter-spacing: 4;
+  font-size: 34px;
+  font-family: helvetica, sans-serif;
+  color: #1A505A;
+  font-weight: 600;
+}
+
+.gym_text h2 {
+  font-size: 18px;
+  font-family: 'Catamaran', Helvetica, sans-serif;
+  color: #232323;
+  margin-top: -20px;
+  text-align: center;
+  letter-spacing: 1;
+  font-weight: 400;
+}
+
+.gym_text p{
+  letter-spacing: 1;
+  font-size: 20px;
+  text-align: center;
+  color: #232323;
+  font-family: 'Catamaran', Helvetica, sans-serif;
+  width: 75%;
+  margin: 0 auto;
+  line-height: 30px;
+  padding-top: 15px;
+}
+
 @media screen and (max-width: 640px) {
   .project_container {
     width: 80%;
@@ -450,6 +499,17 @@ a {
   .more_projects_text p {
     text-align: center;
   }
+  .gym_text {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  .gym_text p {
+    text-align: center;
+  }
+  .gym img {
+    width: 100%;
+  }
 }
 
 @media (min-width: 640px) and (max-width: 1200px) {
@@ -484,7 +544,15 @@ a {
     margin-top: 0;
     margin-bottom: 40px;
   }
-
+  .gym img {
+    width: 60%;
+    margin-left: 18%;
+  }
+  .gym_text {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
 }
 
 /* PROJECTS */
