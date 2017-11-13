@@ -327,6 +327,9 @@ a {
   .problem_container {
     width: 100%;
   }
+  .problem_container p, .solution_container p {
+    width: 90%;
+  }
 }
 
 /** SOLUTION **/
@@ -426,11 +429,8 @@ a {
     width: 100%;
     margin-top: 20px;
   }
-  .survey_findings img {
-    display: none;
-  }
-  .competitive_analysis img {
-    display: none;
+  .research_container {
+    width: 90%;
   }
 }
 
@@ -519,7 +519,12 @@ a {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+}
 
+@media screen and (max-width: 640px) {
+  .design_container {
+    width: 90%;
+  }
 }
 
 /** DESIGN CHOICES **/
@@ -571,11 +576,10 @@ a {
 
 
 @media screen and (max-width: 640px) {
+  .implement_container {
+    width: 90%;
+  }
 }
-
-@media (min-width: 640px) and (max-width: 1200px) {
-}
-
 
 /** IMPLEMENTATION **/
 
@@ -635,6 +639,12 @@ a {
   font-size: 18px;
   font-family: 'Catamaran', Helvetica, sans-serif;
   color: #232323;
+}
+
+@media screen and (max-width: 640px) {
+  .final_container, .conclusion_container {
+    width: 90%;
+  }
 }
 
 /** FOOTER **/
