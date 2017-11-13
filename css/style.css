@@ -195,6 +195,9 @@ a {
   .about {
     padding-top: 0px;
   }
+  .about_container {
+    width: 90%;
+  }
   .about_container p {
     font-size: 18px;
     width: 100%;
@@ -204,7 +207,12 @@ a {
     text-align: center;
     font-size: 20px;
   }
+}
 
+@media (min-width: 640px) and (max-width: 1200px) {
+  .about {
+    padding-top: 0px;
+  }
 }
 
 
@@ -481,6 +489,7 @@ a {
   }
   .ridestarter_text p {
     text-align: center;
+    width: 100%;
   }
   .simplebox_container img {
     width: 100%;
@@ -492,6 +501,7 @@ a {
   }
   .simplebox_text p{
     text-align: center;
+    width: 100%;
   }
   .more_projects img {
     width: 100%;
@@ -503,6 +513,7 @@ a {
   }
   .more_projects_text p {
     text-align: center;
+    width: 100%;
   }
   .gym_text {
     width: 100%;
@@ -511,6 +522,7 @@ a {
   }
   .gym_text p {
     text-align: center;
+    width: 100%;
   }
   .gym img {
     width: 100%;
@@ -648,7 +660,9 @@ a {
 
 @media screen and (max-width: 640px)  {
   .right_footer {float: none;text-align: center; margin-top: 20px;}
-  .left_footer {float: none;}
+  .left_footer {
+    float: none;
+  }
 }
 
 @media (min-width: 1440px) {
