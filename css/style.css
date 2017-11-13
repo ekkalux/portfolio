@@ -116,11 +116,16 @@ a {
 }
 
 @media screen and (max-width: 640px) {
+  .hero_container {
+    width: 90%;
+  }
+
   .hero_container h1 {
-    font-size: 42px;
+    font-size: 28px;
   }
   .hero_container p {
-    font-size: 22px;
+    font-size: 18px;
+    margin-top: 0;
   }
   .arrow_down_container{
     margin-bottom: 40px;
