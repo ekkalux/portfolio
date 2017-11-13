@@ -48,6 +48,12 @@ $("#results").click(function() {
       'slow');
 });
 
+$(".fa-angle-double-up").click(function() {
+  $('html,body').animate({
+      scrollTop: $(".hero").offset().top},
+      'slow');
+});
+
 $(function(){
         // Check the initial Poistion of the Sticky Header
         var stickyHeaderTop = $('.navigation').offset().top;

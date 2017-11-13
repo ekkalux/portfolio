@@ -618,7 +618,7 @@ a {
   width: 60%;
   margin: 0 auto;
   text-align: center;
-  padding: 40px 0 80px 0;
+  padding: 40px 0 0px 0;
   color: #232323;
 }
 
@@ -626,13 +626,17 @@ a {
   font-size: 24px;
 }
 
-@media screen and (max-width: 640px) {
-
+.arrow_up_container {
+  text-align: center;
+  padding-bottom: 10px;
 }
 
-@media (min-width: 640px) and (max-width: 1200px) {
-
+.arrow_up_container h1 {
+  font-size: 18px;
+  font-family: 'Catamaran', Helvetica, sans-serif;
+  color: #232323;
 }
+
 /** FOOTER **/
 
 .footer {

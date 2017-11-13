@@ -254,7 +254,7 @@ a {
 
 .ridestarter_text p {
   letter-spacing: 1;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   color: #232323;
   font-family: 'Catamaran', Helvetica, sans-serif;
@@ -270,7 +270,7 @@ a {
 }
 
 .ridestarter_container img {
-  width: 45%;
+  max-width: 45%;
   float: left;
   background-image: url(../images/ridestarter_laptop.png);
   background-size: cover;
@@ -308,7 +308,7 @@ a {
 
 .simplebox_text p {
   letter-spacing: 1;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   color: #232323;
   font-family: 'Catamaran', Helvetica, sans-serif;
@@ -371,7 +371,7 @@ a {
 
 .more_projects_text p {
   letter-spacing: 1;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   color: #232323;
   font-family: 'Catamaran', Helvetica, sans-serif;
@@ -451,7 +451,7 @@ a {
 
 .gym_text p{
   letter-spacing: 1;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   color: #232323;
   font-family: 'Catamaran', Helvetica, sans-serif;
@@ -467,7 +467,7 @@ a {
     padding: 0;
   }
   .ridestarter_container img{
-   width: 100%;
+   max-width: 100%;
   }
   .ridestarter_text {
     width: 100%;
@@ -518,7 +518,7 @@ a {
     padding: 0;
   }
   .ridestarter_container img{
-   width: 60%;
+   max-width: 60%;
    margin-left: 18%;
   }
   .ridestarter_text {

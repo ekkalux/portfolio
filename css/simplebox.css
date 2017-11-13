@@ -535,6 +535,20 @@ h4 {
   font-size: 18px;
 }
 
+.arrow_up_container {
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+.arrow_up_container h1 {
+  font-size: 18px;
+  font-family: 'Catamaran', Helvetica, sans-serif;
+  color: #232323;
+  text-align: center;
+}
+
+
 @media screen and (max-width: 640px) {
   .conclusion img {
     width: 100%;
