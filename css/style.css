@@ -46,7 +46,6 @@ a {
   padding-top: 10%;
   width: 70%;
   clear: both;
-
 }
 
 .hero_container h1 {
@@ -543,6 +542,9 @@ a {
     margin-top: 0;
     margin-bottom: 40px;
   }
+  .ridestarter_text p{
+    width: 60%;
+  }
   .simplebox_container img {
     width: 60%;
     margin-left: 18%;
@@ -551,6 +553,10 @@ a {
     width: 100%;
     margin-top: 0;
     margin-bottom: 40px;
+  }
+  .simplebox_text p{
+    text-align: center;
+    width: 60%;
   }
   .more_projects img {
     width: 60%;
@@ -561,6 +567,9 @@ a {
     margin-top: 0;
     margin-bottom: 40px;
   }
+  .more_projects_text p{
+    width: 60%;
+  }
   .gym img {
     width: 60%;
     margin-left: 18%;
@@ -569,6 +578,9 @@ a {
     width: 100%;
     margin-top: 0;
     margin-bottom: 40px;
+  }
+  .gym_text p {
+    width: 60%;
   }
 }
 
