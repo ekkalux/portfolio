@@ -7,6 +7,7 @@ $( document ).ready(function() {
         'slow');
 });
 
+
 $(".fa-angle-double-down").click(function() {
   $('html,body').animate({
       scrollTop: $(".projects").offset().top},
