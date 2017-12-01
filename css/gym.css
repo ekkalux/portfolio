@@ -3,7 +3,6 @@ html, body {
   padding: 0;
 }
 
-
 .deliver_hr {
   height: 0;
   border: 0;
@@ -43,6 +42,7 @@ ul li {
   font-family: 'Catamaran', Helvetica, sans-serif;
   font-weight: 200;
   display: list-item;
+
 }
 
 .underline_black {
@@ -50,7 +50,7 @@ ul li {
 }
 
 a {
-  color: #75B46F;
+  color: #0C3D4C;
   text-decoration: none;
   font-family: 'Catamaran', Helvetica, sans-serif;
 }
@@ -72,11 +72,10 @@ a {
 
 }
 
-
 /** HERO **/
 
 .hero {
-  background-image: url("../images/ridestarter_laptop.jpg");
+  background-image: url("../images/gymseeker/gym_cover.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -91,7 +90,6 @@ a {
   position: absolute;
   opacity: 0.6;
 }
-
 
 .hero_container {
   left: 50%;
@@ -254,16 +252,26 @@ a {
 
 /** SUMMARY **/
 
+.summary {
+
+}
+
+
 .summary_container {
   text-align: center;
   margin: 0 auto;
   width: 40%;
   padding-top: 80px;
   padding-bottom: 40px;
+  color: #232323;
 }
 
 .summary_container p {
   text-align: center;
+}
+
+.summary_container img {
+  width: 100%;
 }
 
 .summary_deliver {
@@ -385,58 +393,14 @@ a {
   padding-top: 20px;
 }
 
-.survey_findings a{
-  font-size: 18px;
-  font-family: 'Catamaran', Helvetica, sans-serif;
-  text-align: left;
-  color: #75B46F;
-  text-decoration: none;
-}
-
 .survey_findings img {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: 0px 2px 5px #888888;
-  margin-top: 20px;
   width: 100%;
-  margin-bottom: 40px;
 }
 
 .highlights {
   background-color: #ecf0f1;
   padding: 0.5em 0;
   margin: 20px 0;
-}
-
-.competitive_analysis {
-  text-align: left;
-  font-size: 22px;
-  font-family: cabin, sans-serif;
-  padding-top: 20px;
-  margin: 0 auto;
-}
-
-.competitive_analysis p {
-  text-align: left;
-}
-
-.competitive_analysis a {
-  font-size: 18px;
-  font-family: 'Catamaran', Helvetica, sans-serif;
-  text-align: left;
-  color: #75B46F;
-  text-decoration: none;
-}
-
-.competitive_analysis img {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: 0px 2px 5px #888888;
-  margin-top: 20px;
-  width: 100%;
-  margin-bottom: 40px;
 }
 
 .personas {
@@ -453,7 +417,6 @@ a {
   margin-top: 20px;
   width: 32%;
 }
-
 
 @media screen and (max-width: 640px) {
   .personas img {
@@ -472,9 +435,8 @@ a {
   }
 }
 
-/** RESEARCH **/
 
-/** DESIGN CHOICES **/
+/** RESEARCH **/
 
 .design_choices  {
   padding-top: 40px;
@@ -502,7 +464,6 @@ a {
 .user_flow a {
   font-size: 18px;
   font-family: 'Catamaran', Helvetica, sans-serif;
-  color: #75B46F;
   text-decoration: none;
   cursor: pointer;
   padding-right: 200px;
@@ -534,19 +495,18 @@ a {
   box-shadow: 0px 2px 5px #888888;
 }
 
-.low_mockups {
+.low {
   text-align: left;
   font-size: 22px;
   font-family: 'Catamaran', Helvetica, sans-serif;
   padding-top: 40px;
 }
 
-.low_mockups p{
+.low p {
   text-align: left;
-  clear: both;
 }
 
-.low_mockups img {
+.low img {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -558,14 +518,12 @@ a {
   }
 }
 
-/** DESIGN CHOICES **/
+
+/** DESIGN **/
 
 /** IMPLEMENTATION **/
 
-.implementation  {
-}
-
-.implement_container {
+.usability_container {
   text-align: left;
   margin: 0 auto;
   width: 60%;
@@ -573,46 +531,40 @@ a {
   padding-bottom: 20px;
 }
 
-.implement_container img {
+.usability_container img {
   width: 100%;
 }
 
-.highlights h1 {
-  margin-left:50px;
-  font-size: 20px;
-  border-bottom: 2px solid #232323;
-  margin-right: 50px;
-}
-
-.user_testing {
-  text-align: left;
-  font-size: 22px;
-  font-family: 'Catamaran', Helvetica, sans-serif;
-  margin-top: 40px;
-}
-
-.user_testing p {
-  text-align: left;
-  font-weight: normal;
-}
-
-.iteration_images p {
-  text-align: center;
-  font-family: 'Catamaran', Helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 1.8em;
-  color: grey;
-  margin-top:-5px;
-}
-
-
 @media screen and (max-width: 640px) {
-  .implement_container {
+  .usability_container {
     width: 90%;
   }
 }
 
 /** IMPLEMENTATION **/
+
+/** VISUAL **/
+
+.visual_container {
+  text-align: left;
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.visual_container img {
+  width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .visual_container {
+    width: 90%;
+  }
+}
+
+
+/** CONCLUSION **/
 
 .final_container {
   margin: 0 auto;
@@ -677,6 +629,8 @@ a {
     width: 90%;
   }
 }
+
+/** CONCLUSION **/
 
 /** FOOTER **/
 
