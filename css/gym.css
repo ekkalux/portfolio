@@ -15,10 +15,11 @@ p {
   font-size: 18px;
   text-align: left;
   line-height: 1.8em;
+  font-weight: 400;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'Catamaran', Helvetica, sans-serif;
 }
 
@@ -388,9 +389,7 @@ a {
 
 .survey_findings {
   text-align: left;
-  font-size: 22px;
   font-family: 'Catamaran', Helvetica, sans-serif;
-  padding-top: 20px;
 }
 
 .survey_findings img {
@@ -454,7 +453,6 @@ a {
   text-align: left;
   font-size: 22px;
   font-family: 'Catamaran', Helvetica, sans-serif;
-  padding-top: 20px;
 }
 
 .user_flow p {
@@ -535,6 +533,10 @@ a {
   width: 100%;
 }
 
+.prototype {
+  text-align: center;
+}
+
 @media screen and (max-width: 640px) {
   .usability_container {
     width: 90%;
@@ -607,10 +609,6 @@ a {
   text-align: center;
   padding: 40px 0 0px 0;
   color: #232323;
-}
-
-.conclusion_container h1 {
-  font-size: 24px;
 }
 
 .arrow_up_container {

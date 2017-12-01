@@ -19,7 +19,7 @@ p {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'Catamaran', Helvetica, sans-serif;
 }
 
@@ -380,9 +380,7 @@ a {
 
 .survey_findings {
   text-align: left;
-  font-size: 22px;
   font-family: 'Catamaran', Helvetica, sans-serif;
-  padding-top: 20px;
 }
 
 .survey_findings a{
@@ -490,9 +488,7 @@ a {
 
 .user_flow {
   text-align: left;
-  font-size: 22px;
   font-family: 'Catamaran', Helvetica, sans-serif;
-  padding-top: 20px;
 }
 
 .user_flow p {
@@ -570,7 +566,6 @@ a {
   margin: 0 auto;
   width: 60%;
   padding-top: 10px;
-  padding-bottom: 20px;
 }
 
 .implement_container img {
@@ -588,7 +583,7 @@ a {
   text-align: left;
   font-size: 22px;
   font-family: 'Catamaran', Helvetica, sans-serif;
-  margin-top: 40px;
+
 }
 
 .user_testing p {
@@ -658,7 +653,7 @@ a {
 }
 
 .conclusion_container h1 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .arrow_up_container {
