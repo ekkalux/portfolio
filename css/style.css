@@ -208,11 +208,15 @@ a {
 }
 
 .about_left h2 {
-  font-size: 24px;
+  font-size: 22px;
   text-align: left;
   color: #232323;
   font-family: 'Catamaran', Helvetica, sans-serif;
+  font-weight: 300;
   margin: 0 auto;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
 
 }
 
