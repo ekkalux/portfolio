@@ -461,6 +461,26 @@ h4 {
   box-shadow: 0px 2px 5px #888888;
   width: 100%;
 }
+
+
+.lofi {
+  width: 60%;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 40px;
+}
+
+.lofi {
+  text-align: left;
+}
+
+.lofi img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
 @media screen and (max-width: 640px) {
   .branding {
     width: 90%;
@@ -521,6 +541,7 @@ h4 {
 .high_fidelity {
   width: 60%;
   margin: 0 auto;
+  padding-top: 40px;
 }
 
 .high_fidelity p {
@@ -552,20 +573,29 @@ h4 {
 
 /** HIGH-FIDELITY **/
 
-/** FINAL PRODUCT **/
+/** VISUAL  **/
 
-.final_product {
+.visual {
   width: 60%;
   margin: 0 auto;
   padding-top: 40px;
 }
 
-.final_product p {
-  text-align: left;
+.visual img{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 20px;
 }
 
+/** VISUAL **/
+
+/** HTML **/
 
 .html {
+  width: 60%;
+  margin: 0 auto;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -578,7 +608,7 @@ h4 {
 }
 
 .html a {
-  font-size: 22px;
+  font-size: 18px;
   font-family: 'Catamaran', Helvetica, sans-serif;
   text-align: left;
   color: #7D9DBD;
@@ -590,9 +620,11 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0px 2px 5px #888888;
-  width: 60%;
+  width: 100%;
   margin-top: 20px;
 }
+
+/** HTML **/
 
 .conclusion a {
   color:#7D9DBD;
@@ -601,10 +633,6 @@ h4 {
 
 .conclusion img {
   width: 100%;
-}
-
-.html a {
-  font-size: 18px;
 }
 
 .arrow_up_container {
@@ -618,6 +646,40 @@ h4 {
   font-family: 'Catamaran', Helvetica, sans-serif;
   color: #232323;
   text-align: center;
+}
+
+.conclusion {
+  background-color: #F8F8F8;
+  color: white;
+}
+
+.conclusion_container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0 0px 0;
+  color: #232323;
+}
+
+.conclusion_container h1 {
+  font-size: 20px;
+}
+
+.arrow_up_container {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.arrow_up_container h1 {
+  font-size: 18px;
+  font-family: 'Catamaran', Helvetica, sans-serif;
+  color: #232323;
+}
+
+@media screen and (max-width: 640px) {
+  .final_container, .conclusion_container {
+    width: 90%;
+  }
 }
 
 

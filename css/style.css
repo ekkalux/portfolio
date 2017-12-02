@@ -61,7 +61,7 @@ a {
   letter-spacing: 3;
   font-size: 22px;
   text-align: center;
-  color: #DDDDDD;
+  color: white;
   font-family: sans-serif;
   font-weight:100;
   margin-top: -20px;
@@ -208,7 +208,7 @@ a {
 }
 
 .about_left h2 {
-  font-size: 22px;
+  font-size: 20px;
   text-align: left;
   color: #232323;
   font-family: 'Catamaran', Helvetica, sans-serif;

@@ -576,28 +576,6 @@ a {
   font-family: 'Catamaran', Helvetica, sans-serif;
 }
 
-.final_container h1 {
-  text-align: left;
-}
-
-.final_container p {
-  text-align: left;
-}
-
-.final_container a {
-  text-decoration: none;
-  font-size: 18px;
-  text-align: left;
-  font-family: 'Catamaran', Helvetica, sans-serif;
-  color: #75B46F;
-}
-
-.final_container img {
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-}
-
 .conclusion {
   background-color: #F8F8F8;
   color: white;
@@ -609,6 +587,9 @@ a {
   text-align: center;
   padding: 40px 0 0px 0;
   color: #232323;
+}
+.conclusion_container p{
+  text-align: center;
 }
 
 .arrow_up_container {
