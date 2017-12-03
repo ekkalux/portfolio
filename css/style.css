@@ -268,7 +268,8 @@ a {
 }
 
 .ridestarter_container {
-
+  clear: both;
+  padding-top: 80px;
 }
 
 .ridestarter_text {
@@ -455,10 +456,6 @@ a {
   transform: translateY(-7px);
 }
 
-.gym {
-  clear: both;
-  padding-top: 80px;
-}
 
 .gym img {
   width: 45%;

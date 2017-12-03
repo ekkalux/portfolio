@@ -420,6 +420,14 @@ a {
   width: 32%;
 }
 
+.enlarge:hover{
+  position:relative;
+    width:100%;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
 @media screen and (max-width: 640px) {
   .personas img {
     width: 100%;
@@ -580,6 +588,7 @@ a {
   padding-top: 10px;
   font-size: 22px;
   font-family: 'Catamaran', Helvetica, sans-serif;
+
 }
 
 .conclusion {
@@ -617,13 +626,53 @@ a {
 
 /** CONCLUSION **/
 
+/** MORE**/
+
+.more {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.left_project {
+  float: left;
+  width: 40%;
+  display: hidden;
+}
+
+.left_project img {
+  max-width: 100%;
+  box-shadow: 10px 10px 5px #888888;
+  display: hidden;
+}
+
+.right_project {
+  float: left;
+  width: 40%;
+display: hidden;
+}
+
+.right_project img {
+  width: 100%;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.hover_image:hover {
+  opacity: 1;
+  background-color: black;
+}
+
+/** MORE**/
+
 /** FOOTER **/
 
 .footer {
   width: 100%;
   background-color: #1A505A;
   padding-bottom: 50px;
-  padding-top: 20px
+  padding-top: 20px;
+  clear: both;
 }
 .left_footer {
   float: left;
