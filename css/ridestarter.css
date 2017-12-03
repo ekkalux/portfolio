@@ -35,7 +35,6 @@ h4 {
   font-weight: normal;
 }
 
-
 ul li {
   margin: 15px;
   line-height: 1.5;
@@ -63,7 +62,7 @@ a {
     font-size: 14px;
   }
   h1 {
-    font-size: 22px;
+    font-size: 16px;
   }
   ul li {
     font-size: 14px;
@@ -295,6 +294,9 @@ a {
   .summary_deliver {
     width: 95%;
   }
+  .deliver p {
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 640px) and (max-width: 1200px) {
@@ -459,6 +461,12 @@ a {
   .research_container {
     width: 90%;
   }
+  .survey_findings a {
+    font-size: 14px;
+  }
+  .competitive_analysis a{
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 640px) and (max-width: 1200px) {
@@ -550,6 +558,9 @@ a {
   .design_container {
     width: 90%;
   }
+  .user_flow a {
+    font-size: 14px;
+  }
 }
 
 /** DESIGN CHOICES **/
@@ -602,6 +613,9 @@ a {
 @media screen and (max-width: 640px) {
   .implement_container {
     width: 90%;
+  }
+  .highlights h1 {
+    font-size: 16px;
   }
 }
 
@@ -668,6 +682,9 @@ a {
 @media screen and (max-width: 640px) {
   .final_container, .conclusion_container {
     width: 90%;
+  }
+  .conclusion_container h1  {
+    font-size: 16px;
   }
 }
 

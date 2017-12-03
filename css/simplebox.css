@@ -55,12 +55,12 @@ h4 {
   a {
     font-size: 14px;
   }
-  h1 {
-    font-size: 22px;
-  }
   ul li {
     font-size: 14px;
     margin: 10px;
+  }
+  h1 {
+    font-size: 16px;
   }
 }
 
@@ -280,6 +280,9 @@ h4 {
   .summary_deliver{
     width: 90%;
   }
+  .deliver p {
+    font-size: 12px;
+  }
 }
 
 /** SUMMARY **/
@@ -482,7 +485,7 @@ h4 {
 }
 
 @media screen and (max-width: 640px) {
-  .branding {
+  .branding, .lofi {
     width: 90%;
   }
 }
@@ -491,17 +494,17 @@ h4 {
 
 /** LOW-FIDELITY **/
 
-.low_fidelity {
+.user_testing  {
   width: 60%;
   margin: 0 auto;
   padding-top: 40px;
 }
 
-.low_fidelity p {
+.user_testing p {
   text-align: left;
 }
 
-.low_fidelity a {
+.user_testing a {
   font-size: 18px;
   font-family: 'Catamaran', Helvetica, sans-serif;
   text-align: left;
@@ -509,7 +512,7 @@ h4 {
   color: #7D9DBD
 }
 
-.low_fidelity img {
+.user_testing img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -529,8 +532,14 @@ h4 {
 }
 
 @media screen and (max-width: 640px) {
-  .low_fidelity {
+  .user_testing  {
     width: 90%;
+  }
+  .user_testing a {
+    font-size: 14px;
+  }
+  .highlights h1 {
+    font-size: 16px;
   }
 }
 
@@ -569,6 +578,9 @@ h4 {
   .high_fidelity {
     width: 90%;
   }
+  .high_fidelity a {
+    font-size: 14px;
+  }
 }
 
 /** HIGH-FIDELITY **/
@@ -589,6 +601,12 @@ h4 {
   margin-top: 20px;
 }
 
+@media screen and (max-width: 640px) {
+  .visual {
+    width: 90%;
+  }
+}
+
 /** VISUAL **/
 
 /** HTML **/
@@ -597,11 +615,9 @@ h4 {
   width: 60%;
   margin: 0 auto;
   padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .html h1 {
-  font-size: 20px;
   font-family: 'Catamaran', Helvetica, sans-serif;
   text-align: left;
   text-transform: uppercase;
@@ -624,6 +640,15 @@ h4 {
   margin-top: 20px;
 }
 
+@media screen and (max-width: 640px) {
+  .html {
+    width: 90%;
+  }
+  .html a {
+    font-size: 14px;
+  }
+}
+
 /** HTML **/
 
 .conclusion a {
@@ -642,7 +667,7 @@ h4 {
 }
 
 .arrow_up_container h1 {
-  font-size: 18px;
+
   font-family: 'Catamaran', Helvetica, sans-serif;
   color: #232323;
   text-align: center;
@@ -661,9 +686,6 @@ h4 {
   color: #232323;
 }
 
-.conclusion_container h1 {
-  font-size: 20px;
-}
 
 .arrow_up_container {
   text-align: center;

@@ -64,7 +64,7 @@ a {
     font-size: 14px;
   }
   h1 {
-    font-size: 22px;
+    font-size: 16px;
   }
   ul li {
     font-size: 14px;
@@ -304,6 +304,9 @@ a {
   .summary_deliver {
     width: 95%;
   }
+  .deliver p {
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 640px) and (max-width: 1200px) {
@@ -513,6 +516,9 @@ a {
 @media screen and (max-width: 640px) {
   .design_container {
     width: 90%;
+  }
+  .user_flow a {
+    font-size: 14px;
   }
 }
 
