@@ -16,6 +16,7 @@ p {
   font-size: 18px;
   text-align: left;
   line-height: 1.8em;
+
 }
 
 h1 {
@@ -688,41 +689,72 @@ a {
   }
 }
 
-/** FOOTER **/
+/* CONTACT*/
 
-.footer {
-  width: 100%;
+.contact {
+  clear: both;
   background-color: #1A505A;
-  padding-bottom: 50px;
-  padding-top: 20px
-}
-.left_footer {
-  float: left;
-  padding-left: 50px;
-  color: white;
-  font-family: sans-serif;
-  font-size: 14px;
   padding-top: 10px;
 }
 
-.right_footer {
+.contact h1 {
+  letter-spacing: 5;
+  font-size: 38px;
+  font-family: helvetica, sans-serif;
+  text-align: center;
   color: white;
-  letter-spacing: 3px;
-  float: right;
-  margin-right: 20px;
+  font-weight: 600;
 }
+
+.contact_container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact_container p {
+  letter-spacing: 0.5;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-family: 'Catamaran', Helvetica, sans-serif;
+  font-weight:300;
+  margin: 0 auto;
+  line-height: 1.5em;
+  padding-bottom: 0px;
+}
+
+.bottom p {
+  font-size: 14px;
+  padding-bottom:20px;
+}
+
+.icons {
+  padding-bottom: 30px;
+}
+
+.icons .fa {
+  margin: 10px;
+}
+
+.contact_hr {
+  height: 0;
+  border: 0;
+  border-top:2px solid white;
+  margin-top:-20px;
+  margin-bottom: 20px;
+  width: 80px;
+}
+
+@media screen and (max-width: 640px) {
+  .contact_container {
+    width: 80%;
+  }
+}
+
 .fa {
   color: white;
+  cursor: pointer;
 }
 
-@media (max-width: 480px) {
-  .right_footer {float: none;text-align: center; margin-top: 20px;}
-  .left_footer {float: none;}
-}
-
-@media (min-width: 1440px) {
-  .project_container {width: 70%;}
-}
-
-
-/** FOOTER **/
+/* CONTACT */

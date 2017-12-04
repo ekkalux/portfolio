@@ -16,6 +16,7 @@ hr {
   width: 80px;
 }
 
+
 #hr_about {
   height: 0;
   border: 0;
@@ -178,6 +179,7 @@ a {
 .about {
   padding-top: 40px;
   clear: both;
+  padding-bottom: 20px;
 }
 
 .about_container {
@@ -197,7 +199,7 @@ a {
 }
 
 .about_left p {
-  letter-spacing: 1;
+  letter-spacing: 0.5;
   font-size: 18px;
   text-align: left;
   color: #232323;
@@ -225,7 +227,7 @@ a {
     padding-top: 0px;
   }
   .about_container {
-    width: 90%;
+    width: 85%;
   }
   .about_container p {
     font-size: 18px;
@@ -296,14 +298,14 @@ a {
 }
 
 .ridestarter_text p {
-  letter-spacing: 1;
+  letter-spacing: 0.5;
   font-size: 18px;
   text-align: center;
   color: #232323;
   font-family: 'Catamaran', Helvetica, sans-serif;
   width: 75%;
   margin: 0 auto;
-  line-height: 30px;
+  line-height: 1.8em;
   padding-top: 15px;
 }
 
@@ -350,7 +352,7 @@ a {
 }
 
 .simplebox_text p {
-  letter-spacing: 1;
+  letter-spacing: 0.5;
   font-size: 18px;
   text-align: center;
   color: #232323;
@@ -358,7 +360,7 @@ a {
   font-weight:400;
   width: 75%;
   margin: 0 auto;
-  line-height: 30px;
+  line-height: 1.8em;
   padding-top: 15px;
 }
 
@@ -490,14 +492,14 @@ a {
 }
 
 .gym_text p{
-  letter-spacing: 1;
+  letter-spacing: 0.5;
   font-size: 18px;
   text-align: center;
   color: #232323;
   font-family: 'Catamaran', Helvetica, sans-serif;
   width: 75%;
   margin: 0 auto;
-  line-height: 30px;
+  line-height: 1.8em;
   padding-top: 15px;
 }
 
@@ -648,9 +650,9 @@ a {
 /* CONTACT*/
 
 .contact {
-  padding-top: 40px;
   clear: both;
-
+  background-color: #1A505A;
+  padding-top: 10px;
 }
 
 .contact h1 {
@@ -658,87 +660,59 @@ a {
   font-size: 38px;
   font-family: helvetica, sans-serif;
   text-align: center;
-  color: #1A505A;
+  color: white;
   font-weight: 600;
 }
 
 .contact_container {
   width: 50%;
   margin: 0 auto;
-  padding-top: -50px;
-  padding-bottom: 50px;
   text-align: center;
 }
 
 .contact_container p {
-  letter-spacing: 1;
+  letter-spacing: 0.5;
   font-size: 18px;
   text-align: center;
-  color: #232323;
+  color: white;
   font-family: 'Catamaran', Helvetica, sans-serif;
-  font-weight:400;
+  font-weight:300;
   margin: 0 auto;
-  line-height: 1.8em;
-  padding-bottom: 20px;
+  line-height: 1.5em;
+  padding-bottom: 0px;
 }
 
-.contact_container .button {
-  color: #232323;
-  font-size: 12px;
-  font-weight: bold;
+.bottom p {
+  font-size: 14px;
+  padding-bottom:20px;
+}
+
+.icons {
+  padding-bottom: 30px;
+}
+
+.icons .fa {
+  margin: 10px;
+}
+
+.contact_hr {
+  height: 0;
+  border: 0;
+  border-top:2px solid white;
+  margin-top:-20px;
+  margin-bottom: 20px;
+  width: 80px;
 }
 
 @media screen and (max-width: 640px) {
   .contact_container {
     width: 80%;
   }
-  .contact_container p {
-    font-size: 18px;
-  }
 }
 
-
-/* CONTACT */
-
-
-/* FOOTER */
-
-.footer {
-  width: 100%;
-  background-color: #1A505A;
-  padding-bottom: 50px;
-  padding-top: 20px
-}
-.left_footer {
-  float: left;
-  padding-left: 100px;
-  color: white;
-  font-family: sans-serif;
-  font-size: 14px;
-  padding-top: 10px;
-}
-
-.right_footer {
-  color: white;
-  letter-spacing: 3px;
-  float: right;
-  margin-right: 100px;
-}
 .fa {
   color: white;
   cursor: pointer;
-  letter-spacing: 5px;
 }
 
-@media screen and (max-width: 640px)  {
-  .right_footer {float: none;text-align: center; margin-top: 20px;}
-  .left_footer {
-    float: none;
-  }
-}
-
-@media (min-width: 1440px) {
-  .project_container {width: 70%;}
-}
-
-/* FOOTER */
+/* CONTACT */

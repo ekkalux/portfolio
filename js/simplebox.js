@@ -26,25 +26,25 @@ $("#research").click(function() {
 
 $("#design").click(function() {
   $('html,body').animate({
-      scrollTop: $(".user_flow").offset().top},
+      scrollTop: $(".branding").offset().top},
       'slow');
 });
 
 $("#usability").click(function() {
   $('html,body').animate({
-      scrollTop: $(".low_fidelity").offset().top},
-      'slow');
-});
-
-$("#high_fidelity").click(function() {
-  $('html,body').animate({
-      scrollTop: $(".high_fidelity").offset().top},
+      scrollTop: $(".user_testing").offset().top},
       'slow');
 });
 
 $("#results").click(function() {
   $('html,body').animate({
-      scrollTop: $(".final_product").offset().top},
+      scrollTop: $(".final").offset().top},
+      'slow');
+});
+
+$("#visual").click(function() {
+  $('html,body').animate({
+      scrollTop: $(".visual").offset().top},
       'slow');
 });
 
