@@ -52,18 +52,18 @@ a {
 .hero_container h1 {
   letter-spacing: 5;
   font-size: 48px;
-  font-family: helvetica, sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   text-align: center;
   color: white;
   font-weight: 400;
 }
 
 .hero_container p {
-  letter-spacing: 3;
+  letter-spacing: 2;
   font-size: 22px;
   text-align: center;
   color: white;
-  font-family: sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   font-weight:100;
   margin-top: -20px;
   line-height: 1.5em;
@@ -191,7 +191,7 @@ a {
 .about_container h1{
   letter-spacing: 5;
   font-size: 38px;
-  font-family: helvetica, sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   text-align: center;
   color: #1A505A;
   font-weight: 600;
@@ -200,23 +200,25 @@ a {
 
 .about_left p {
   letter-spacing: 0.5;
-  font-size: 18px;
+  font-size: 16px;
   text-align: left;
-  color: #232323;
-  font-family: 'Catamaran', Helvetica, sans-serif;
+  color: #333;
+  font-family: 'Yantramanav', sans-serif;
   margin-bottom: 30px;
   line-height: 1.8em;
+  font-weight: 300;
 
 }
 
 .about_left h2 {
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
   color: #232323;
-  font-family: 'Catamaran', Helvetica, sans-serif;
+  font-family: Helvetica,arial,sans-serif;
   font-weight: 300;
   margin: 0 auto;
   letter-spacing: 0.06em;
+  line-height: 1.4em;
   text-transform: uppercase;
   text-align: center;
 
@@ -282,14 +284,14 @@ a {
 .ridestarter_text h1 {
   letter-spacing: 4;
   font-size: 34px;
-  font-family: helvetica, sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   color: #75B46F;
   font-weight: 600;
 }
 
 .ridestarter_text h2 {
   font-size: 18px;
-  font-family: 'Catamaran', Helvetica, sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   color: #232323;
   font-weight: 400;
   margin-top: -20px;
@@ -298,15 +300,16 @@ a {
 }
 
 .ridestarter_text p {
-  letter-spacing: 0.5;
   font-size: 18px;
   text-align: center;
   color: #232323;
-  font-family: 'Catamaran', Helvetica, sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   width: 75%;
   margin: 0 auto;
-  line-height: 1.8em;
+  line-height: 1.6em;
   padding-top: 15px;
+  letter-spacing: 0.06em;
+  font-weight: 300;
 }
 
 .ridestarter_button {
@@ -336,14 +339,14 @@ a {
 .simplebox_text h1 {
   letter-spacing: 4;
   font-size: 34px;
-  font-family: helvetica, sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   color: #7D9DBD;
   font-weight: 600;
 }
 
 .simplebox_text h2 {
   font-size: 18px;
-  font-family: 'Catamaran', Helvetica, sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   color: #232323;
   font-weight: 400;
   margin-top: -20px;
@@ -352,16 +355,16 @@ a {
 }
 
 .simplebox_text p {
-  letter-spacing: 0.5;
   font-size: 18px;
   text-align: center;
   color: #232323;
-  font-family: 'Catamaran', Helvetica, sans-serif;
-  font-weight:400;
+  font-family: 'Yantramanav', sans-serif;
   width: 75%;
   margin: 0 auto;
-  line-height: 1.8em;
+  line-height: 1.6em;
   padding-top: 15px;
+  letter-spacing: 0.06em;
+  font-weight: 300;
 }
 
 .simplebox_button {
@@ -483,7 +486,7 @@ a {
 
 .gym_text h2 {
   font-size: 18px;
-  font-family: 'Catamaran', Helvetica, sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   color: #232323;
   margin-top: -20px;
   text-align: center;
@@ -492,15 +495,16 @@ a {
 }
 
 .gym_text p{
-  letter-spacing: 0.5;
   font-size: 18px;
   text-align: center;
   color: #232323;
-  font-family: 'Catamaran', Helvetica, sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   width: 75%;
   margin: 0 auto;
-  line-height: 1.8em;
+  line-height: 1.6em;
   padding-top: 15px;
+  letter-spacing: 0.06em;
+  font-weight: 300;
 }
 
 .button_gym {

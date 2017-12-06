@@ -12,46 +12,51 @@ html, body {
 }
 
 p {
-  font-family: 'Catamaran', Helvetica, sans-serif;
-  font-size: 18px;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 16px;
   text-align: left;
-
+  color: #333;
+  font-weight: 300;
+  line-height: 1.625em;
 }
 
 h1 {
-  font-size: 20px;
-  font-family: 'Catamaran', Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-family: 'Yantramanav', sans-serif;
+  color: #333;
+  font-weight: 300;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  line-height: 1.2em;
 }
 
 h3 {
   font-size: 16px;
-  font-family: 'Catamaran', Helvetica, sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   font-weight: normal;
 }
 
 h4 {
   font-size: 14px;
-  font-family: 'Catamaran', Helvetica, sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   font-weight: normal;
 }
 
 ul li {
   margin: 15px;
-  line-height: 1.5;
-  font-size: 18px;
-  font-family: 'Catamaran', Helvetica, sans-serif;
+  line-height: 1.4;
+  font-size: 16px;
+  font-family: 'Yantramanav', sans-serif;
   font-weight: 200;
   display: list-item;
+  color: #333;
 }
 
-.underline_black {
-  border-bottom: 2px solid #232323;
-}
 
 a {
   color: #75B46F;
   text-decoration: none;
-  font-family: 'Catamaran', Helvetica, sans-serif;
+  font-family: 'Yantramanav', sans-serif;
 }
 
 @media screen and (max-width: 640px) {
@@ -60,9 +65,6 @@ a {
   }
   a {
     font-size: 14px;
-  }
-  h1 {
-    font-size: 16px;
   }
   ul li {
     font-size: 14px;
@@ -107,24 +109,24 @@ a {
 
 .title_container h1 {
   letter-spacing: 4;
-  font-size: 48px;
-  font-family: 'Catamaran', Helvetica, sans-serif;
+  font-size: 3em;
+  font-family: 'Yantramanav', sans-serif;
   text-align: center;
   color: white;
-  font-weight: 600;
-  margin-bottom: 0px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  letter-spacing: 0.06em;
 }
 
 .title_container p {
-  letter-spacing: 1;
-  font-size: 22px;
+  letter-spacing: 0.03em;
+  font-size: 20px;
   text-align: center;
   color: white;
-  font-family: 'Catamaran', Helvetica, sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   width: 80%;
   margin: 0 auto;
   line-height: 30px;
-  font-weight: 400;
 }
 
 .button_container {
@@ -227,7 +229,7 @@ a {
 .navigation h2 {
   display: inline-block;
   font-size: 14px;
-  font-family: 'Catamaran', Helvetica, sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   cursor: pointer;
   letter-spacing: 1;
   text-align: center;
@@ -331,7 +333,6 @@ a {
   color: #232323;
   width: 60%;
   margin: 0 auto;
-  font-family: 'Catamaran', Helvetica, sans-serif;
 }
 
 .problem_container {
@@ -349,7 +350,6 @@ a {
 .problem_container p {
   width: 60%;
   margin: 0 auto;
-  font-family: 'Catamaran', Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -590,9 +590,6 @@ a {
 
 .user_testing {
   text-align: left;
-  font-size: 22px;
-  font-family: 'Catamaran', Helvetica, sans-serif;
-
 }
 
 .user_testing p {
@@ -603,7 +600,7 @@ a {
 .iteration_images p {
   text-align: center;
   font-family: 'Catamaran', Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.8em;
   color: grey;
   margin-top:-5px;
