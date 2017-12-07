@@ -248,6 +248,12 @@ a {
   }
 }
 
+@media (min-width: 1200px) {
+  .about_container {
+    max-width: 65%;
+  }
+}
+
 
 /* ABOUT */
 
