@@ -59,6 +59,13 @@ a {
   font-family: 'Yantramanav', sans-serif;
 }
 
+.container {
+  width: 60%;
+  text-align: left;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
 @media screen and (max-width: 640px) {
   p {
     font-size: 14px;
@@ -70,7 +77,18 @@ a {
     font-size: 14px;
     margin: 10px;
   }
+  .container {
+    width: 90%;
+  }
+  h1 {
+    font-size: 18px;
+  }
+}
 
+@media (min-width: 1441px) {
+  .container, #conclusion_container {
+    width: 1008px;
+  }
 }
 
 
@@ -284,8 +302,6 @@ a {
 .deliver p {
   text-align: center;
   font-size: 14px;
-  font-weight: bold;
-  color:#232323;
 }
 
 @media screen and (max-width: 640px) {
@@ -371,13 +387,6 @@ a {
 
 .research {
   clear: both;
-  padding-top: 40px;
-}
-
-.research_container {
-  text-align: left;
-  margin: 0 auto;
-  width: 60%;
 }
 
 .survey_findings {
@@ -397,7 +406,6 @@ a {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: 0px 2px 5px #888888;
   width: 100%;
 }
 
@@ -409,8 +417,6 @@ a {
 
 .competitive_analysis {
   text-align: left;
-  font-size: 22px;
-  font-family: cabin, sans-serif;
   padding-top: 20px;
   margin: 0 auto;
 }
@@ -440,7 +446,6 @@ a {
 .personas {
   text-align: left;
   font-size: 22px;
-  font-family: cabin, sans-serif;
   margin: 0 auto;
   padding-top: 20px;
 }
@@ -479,18 +484,6 @@ a {
 /** RESEARCH **/
 
 /** DESIGN CHOICES **/
-
-.design_choices  {
-  padding-top: 40px;
-}
-
-.design_container {
-  text-align: left;
-  margin: 0 auto;
-  width: 60%;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
 
 .user_flow {
   text-align: left;
@@ -567,29 +560,11 @@ a {
 
 /** IMPLEMENTATION **/
 
-.implementation  {
-}
-
-.implement_container {
-  text-align: left;
-  margin: 0 auto;
-  width: 60%;
-  padding-top: 10px;
-}
-
-.implement_container img {
-  width: 100%;
-}
-
 .highlights h1 {
   margin-left:50px;
   font-size: 20px;
   border-bottom: 2px solid #232323;
   margin-right: 50px;
-}
-
-.user_testing {
-  text-align: left;
 }
 
 .user_testing p {
@@ -608,11 +583,11 @@ a {
 
 
 @media screen and (max-width: 640px) {
-  .implement_container {
-    width: 90%;
-  }
   .highlights h1 {
     font-size: 16px;
+  }
+  .iteration_images img {
+    width: 100%;
   }
 }
 
@@ -653,7 +628,7 @@ a {
   color: white;
 }
 
-.conclusion_container {
+#conclusion_container {
   width: 60%;
   margin: 0 auto;
   text-align: center;
@@ -661,7 +636,11 @@ a {
   color: #232323;
 }
 
-.conclusion_container h1 {
+#conclusion_container p {
+  text-align: center;
+}
+
+#conclusion_container h1 {
   font-size: 20px;
 }
 
@@ -677,11 +656,8 @@ a {
 }
 
 @media screen and (max-width: 640px) {
-  .final_container, .conclusion_container {
+  .final_container, #conclusion_container {
     width: 90%;
-  }
-  .conclusion_container h1  {
-    font-size: 16px;
   }
 }
 

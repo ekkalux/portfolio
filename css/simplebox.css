@@ -86,7 +86,7 @@ h4 {
 
 @media (min-width: 1441px) {
   .container, #summary_container, #conclusion_container, .visual {
-    width: 864px;
+    max-width: 1008px;
   }
 }
 
@@ -314,9 +314,6 @@ h4 {
 
 /** SOLUTION **/
 
-.problem {
-}
-
 .problem_container {
   float: left;
   width:50%;
@@ -448,9 +445,6 @@ h4 {
 }
 
 @media screen and (max-width: 640px) {
-  .user_testing  {
-    width: 90%;
-  }
   .user_testing a {
     font-size: 14px;
   }
@@ -480,9 +474,6 @@ h4 {
 }
 
 @media screen and (max-width: 640px) {
-  .high_fidelity {
-    width: 90%;
-  }
   .high_fidelity a {
     font-size: 14px;
   }
@@ -507,7 +498,7 @@ h4 {
 }
 
 @media screen and (max-width: 640px) {
-  #visual {
+  .visual {
     width: 90%;
   }
 }

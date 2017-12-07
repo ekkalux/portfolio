@@ -74,7 +74,7 @@ a {
     font-size: 14px;
   }
   h1 {
-    font-size: 16px;
+    font-size: 18px;
   }
   ul li {
     font-size: 14px;
@@ -86,8 +86,9 @@ a {
 }
 
 @media (min-width: 1441px) {
-  .container, #summary_container, #usability_container, #conclusion_container {
-    max-width: 864px;
+  .container, #summary_container, #usability_container, #conclusion_container,
+  #visual_container {
+    max-width: 1008px;
   }
 }
 
