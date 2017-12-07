@@ -248,9 +248,9 @@ a {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1441px) {
   .about_container {
-    max-width: 65%;
+    max-width: 1000px;
   }
 }
 
