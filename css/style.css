@@ -45,7 +45,7 @@ a {
 .hero_container {
   margin: 0 auto;
   padding-top: 10%;
-  width: 70%;
+  max-width: 70%;
   clear: both;
 }
 
@@ -184,7 +184,7 @@ a {
 
 .about_container {
   text-align: center;
-  width: 65%;
+  max-width: 65%;
   margin: 0 auto;
 }
 
