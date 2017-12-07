@@ -58,6 +58,14 @@ a {
   font-family: 'Yantramanav', sans-serif;
 }
 
+.container {
+  text-align: left;
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
 @media screen and (max-width: 640px) {
   p {
     font-size: 14px;
@@ -72,7 +80,15 @@ a {
     font-size: 14px;
     margin: 10px;
   }
+  .container {
+    width: 90%;
+  }
+}
 
+@media (min-width: 1441px) {
+  .container, #summary_container, #usability_container, #conclusion_container {
+    max-width: 864px;
+  }
 }
 
 /** HERO **/
@@ -255,11 +271,7 @@ a {
 
 /** SUMMARY **/
 
-.summary {
-}
-
-
-.summary_container {
+#summary_container {
   text-align: center;
   margin: 0 auto;
   width: 40%;
@@ -267,12 +279,12 @@ a {
   padding-bottom: 40px;
 }
 
-.summary_container p {
+#summary_container p {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.summary_container img {
+#summary_container img {
   width: 100%;
 }
 
@@ -298,9 +310,9 @@ a {
 }
 
 @media screen and (max-width: 640px) {
-  .summary_container {
+  #summary_container {
     width: 90%;
-    padding-top: 0px;
+    padding-top: 20px;
   }
   .summary_deliver {
     width: 95%;
@@ -311,7 +323,7 @@ a {
 }
 
 @media (min-width: 640px) and (max-width: 1200px) {
-  .summary_container {
+  #summary_container {
     width: 60%;
   }
 }
@@ -524,9 +536,6 @@ a {
 }
 
 @media screen and (max-width: 640px) {
-  .design_container {
-    width: 90%;
-  }
   .user_flow a {
     font-size: 14px;
   }
@@ -537,7 +546,7 @@ a {
 
 /** IMPLEMENTATION **/
 
-.usability_container {
+#usability_container {
   text-align: left;
   margin: 0 auto;
   width: 60%;
@@ -545,7 +554,7 @@ a {
   padding-bottom: 20px;
 }
 
-.usability_container img {
+#usability_container img {
   width: 100%;
 }
 
@@ -555,7 +564,7 @@ a {
 }
 
 @media screen and (max-width: 640px) {
-  .usability_container {
+  #usability_container {
     width: 90%;
   }
   .prototype {
@@ -567,24 +576,21 @@ a {
 
 /** VISUAL **/
 
-.visual_container {
-  text-align: left;
-  margin: 0 auto;
-  width: 60%;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-
-.visual_container img {
+#visual_container img {
   width: 100%;
 }
 
+#visual_container {
+  margin: 0 auto;
+  text-align: left;
+  width:60%;
+}
+
 @media screen and (max-width: 640px) {
-  .visual_container {
+  #visual_container {
     width: 90%;
   }
 }
-
 
 /** CONCLUSION **/
 
@@ -600,14 +606,14 @@ a {
   color: white;
 }
 
-.conclusion_container {
+#conclusion_container {
   width: 60%;
   margin: 0 auto;
   text-align: center;
   padding: 40px 0 0px 0;
   color: #232323;
 }
-.conclusion_container p{
+#conclusion_container p{
   text-align: center;
 }
 
@@ -623,7 +629,7 @@ a {
 }
 
 @media screen and (max-width: 640px) {
-  .final_container, .conclusion_container {
+  #conclusion_container {
     width: 90%;
   }
 }

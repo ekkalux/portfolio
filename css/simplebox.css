@@ -55,6 +55,16 @@ h4 {
   margin: 20px 0;
 }
 
+.container {
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 40px;
+}
+
+.container img{
+  width: 100%;
+}
+
 @media screen and (max-width: 640px)  {
   p {
     font-size: 14px;
@@ -68,6 +78,15 @@ h4 {
   }
   h1 {
     font-size: 16px;
+  }
+  .container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1441px) {
+  .container, #summary_container, #conclusion_container, .visual {
+    width: 864px;
   }
 }
 
@@ -245,7 +264,7 @@ h4 {
 
 /** SUMMARY **/
 
-.summary_container {
+#summary_container {
   text-align: center;
   margin: 0 auto;
   width: 40%;
@@ -253,10 +272,9 @@ h4 {
   padding-bottom: 40px;
 }
 
-.summary_container p {
+#summary_container p {
   text-align: center;
 }
-
 
 .summary_deliver {
   margin: 0 auto;
@@ -280,9 +298,9 @@ h4 {
 }
 
 @media screen and (max-width: 640px) {
-  .summary_container {
+  #summary_container {
     width: 90%;
-    padding-top: 0px;
+    padding-top: 20px;
   }
   .summary_deliver{
     width: 90%;
@@ -351,40 +369,12 @@ h4 {
   }
 }
 
-
-
 /** SOLUTION **/
 
 /** RESEARCH **/
 
 .research {
   clear: both;
-  padding-top: 40px;
-}
-
-.research_container {
-  margin: 0 auto;
-  width: 60%;
-}
-
-.research_container p {
-  text-align: left;
-  color: #232323;
-}
-
-.research_container img {
-  width:100%;
-  box-shadow: 0px 2px 5px #888888;
-  background-size: cover;
-}
-
-.user_flow {
-  padding-top: 20px;
-}
-
-.user_flow_container {
-  width: 60%;
-  margin: 0 auto;
 }
 
 .user_flow_container p {
@@ -398,62 +388,10 @@ h4 {
   clear: both;
 }
 
-#normal_flow {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-}
-
-#returning_flow {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  margin-top: 40px;
-}
-
-@media screen and (max-width: 640px) {
-  #normal_flow {
-    width: 100%;
-  }
-  #returning_flow {
-    width: 100%;
-    margin-left: 0px;
-    margin-top: 20px;
-  }
-  .research_container {
-    width: 90%;
-  }
-  .user_flow_container {
-    width: 90%;
-  }
-}
-
-@media (min-width: 640px) and (max-width: 1200px)  {
-  #normal_flow {
-    width: 40%;
-    margin-left: 10%;
-  }
-  #returning_flow {
-    width: 40%;
-    margin-left: 20px;
-  }
-  .research_container img {
-    width: 100%;
-  }
-}
 
 /** RESERACH **/
 
 /** BRANDING **/
-
-.branding {
-  width: 60%;
-  margin: 0 auto;
-  clear: both;
-  padding-top: 40px;
-}
 
 .branding p {
   text-align: left;
@@ -468,18 +406,6 @@ h4 {
   width: 100%;
 }
 
-
-.lofi {
-  width: 60%;
-  margin: 0 auto;
-  clear: both;
-  padding-top: 40px;
-}
-
-.lofi {
-  text-align: left;
-}
-
 .lofi img {
   background-position: center;
   background-size: cover;
@@ -487,21 +413,9 @@ h4 {
   width: 100%;
 }
 
-@media screen and (max-width: 640px) {
-  .branding, .lofi {
-    width: 90%;
-  }
-}
-
 /** BRANDING **/
 
 /** LOW-FIDELITY **/
-
-.user_testing  {
-  width: 60%;
-  margin: 0 auto;
-  padding-top: 40px;
-}
 
 .user_testing p {
   text-align: left;
@@ -549,16 +463,6 @@ h4 {
 
 /** HIGH-FIDELITY **/
 
-.high_fidelity {
-  width: 60%;
-  margin: 0 auto;
-  padding-top: 40px;
-}
-
-.high_fidelity p {
-  text-align: left;
-}
-
 .high_fidelity img {
   background-position: center;
   background-size: cover;
@@ -603,7 +507,7 @@ h4 {
 }
 
 @media screen and (max-width: 640px) {
-  .visual {
+  #visual {
     width: 90%;
   }
 }
@@ -611,17 +515,6 @@ h4 {
 /** VISUAL **/
 
 /** HTML **/
-
-.html {
-  width: 60%;
-  margin: 0 auto;
-  padding-top: 40px;
-}
-
-.html h1 {
-  text-align: left;
-  text-transform: uppercase;
-}
 
 .html a {
   text-align: left;
@@ -665,7 +558,6 @@ h4 {
 }
 
 .arrow_up_container h1 {
-
   font-family: 'Catamaran', Helvetica, sans-serif;
   color: #232323;
   text-align: center;
@@ -676,7 +568,7 @@ h4 {
   color: white;
 }
 
-.conclusion_container {
+#conclusion_container {
   width: 60%;
   margin: 0 auto;
   text-align: center;
@@ -684,6 +576,9 @@ h4 {
   color: #232323;
 }
 
+#conclusion_container p {
+  text-align: center;
+}
 
 .arrow_up_container {
   text-align: center;
@@ -697,32 +592,10 @@ h4 {
 }
 
 @media screen and (max-width: 640px) {
-  .final_container, .conclusion_container {
+  #conclusion_container {
     width: 90%;
   }
 }
-
-
-@media screen and (max-width: 640px) {
-  .conclusion img {
-    width: 100%;
-    margin-left: 0;
-  }
-  .html img {
-    width: 100%;
-  }
-  .final_product {
-    width: 90%;
-  }
-}
-
-@media (min-width: 640px) and (max-width: 1200px) {
-  .conclusion img {
-    width: 100%;
-    margin-left: 0;
-  }
-}
-
 
 /** FINAL PRODUCT **/
 
