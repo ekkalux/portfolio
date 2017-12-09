@@ -306,8 +306,7 @@ a {
 .deliver p {
   text-align: center;
   font-size: 14px;
-  font-weight: bold;
-  color:#232323;
+  color:#333;
 }
 
 @media screen and (max-width: 640px) {

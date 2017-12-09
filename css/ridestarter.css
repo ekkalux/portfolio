@@ -593,6 +593,14 @@ a {
 
 /** IMPLEMENTATION **/
 
+/* ANNOTATION*/
+
+.container img {
+  width: 100%;
+}
+
+/* ANNOTATION*/
+
 .final_container {
   margin: 0 auto;
   width: 60%;
