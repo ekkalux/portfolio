@@ -497,7 +497,6 @@ a {
 
 .user_flow {
   text-align: left;
-  font-family: 'Catamaran', Helvetica, sans-serif;
 }
 
 .user_flow p {
@@ -506,7 +505,6 @@ a {
 
 .user_flow a {
   font-size: 18px;
-  font-family: 'Catamaran', Helvetica, sans-serif;
   color: #75B46F;
   text-decoration: none;
   cursor: pointer;
@@ -524,7 +522,6 @@ a {
 .branding {
   text-align: left;
   font-size: 22px;
-  font-family: 'Catamaran', Helvetica, sans-serif;
   padding-top: 40px;
 }
 
@@ -542,7 +539,6 @@ a {
 .low_mockups {
   text-align: left;
   font-size: 22px;
-  font-family: 'Catamaran', Helvetica, sans-serif;
   padding-top: 40px;
 }
 
@@ -579,7 +575,6 @@ a {
 
 .user_testing p {
   text-align: left;
-  font-weight: normal;
 }
 
 .iteration_images p {
@@ -616,7 +611,6 @@ a {
   width: 60%;
   padding-top: 10px;
   font-size: 22px;
-  font-family: 'Catamaran', Helvetica, sans-serif;
 }
 
 .final_container h1 {
@@ -631,7 +625,6 @@ a {
   text-decoration: none;
   font-size: 18px;
   text-align: left;
-  font-family: 'Catamaran', Helvetica, sans-serif;
   color: #75B46F;
 }
 
