@@ -87,7 +87,7 @@ img:hover {
 }
 
 .hero_gymseeker {
-  background-image: url("../images/gymseekerbig.png");
+  background-image: url("../images/gymseekerbig.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -97,7 +97,7 @@ img:hover {
 }
 
 .hero_ridestarter{
-  background-image: url("../images/ridestarterbig.png");
+  background-image: url("../images/ridestarterbig.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
