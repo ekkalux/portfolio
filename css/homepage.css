@@ -1,0 +1,267 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  padding-top: 4rem;
+  z-index: 2000;
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+  z-index:2000;
+  /* box-shadow: 0 5px 22px rgba(0,0,0,.12); */
+  top: 0;
+}
+
+.nav_container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.name {
+  float: left;
+}
+
+.links {
+  float: right;
+}
+
+.links a {
+  text-decoration: none;
+  font-family: "oswald";
+  padding: 20px;
+  vertical-align: center;
+  color: #333;
+  letter-spacing: 0.2rem;
+}
+
+.links a:hover{
+  color: #9C3939;
+}
+
+.links a.active {
+  color: #9C3939;
+}
+
+.hero {
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 58%;
+  text-align: center;
+}
+
+.container .fa {
+  color: grey;
+}
+
+.lux:hover {
+  color: #9C3939;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-family: "oswald";
+  font-weight: 400;
+  letter-spacing: 0.25rem;
+}
+
+h2 {
+  font-size: 12px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: -35px;
+  color: #9C3939;
+  font-weight: 700;
+}
+
+p {
+  font-family: "raleway";
+  font-size: 16px;
+  color: #333;
+  line-height: 1.625em;
+  opacity: 0.8;
+}
+
+.container .beforescroll {
+  font-size: 16px;
+}
+
+.container .scroll {
+  color: grey;
+  font-family: "oswald";
+  letter-spacing: 0.1rem;
+  font-size: 14px;
+}
+
+.scroll:hover {
+  color: #333;
+}
+
+.projects {
+  width: 100%;
+}
+
+.container2 {
+  float: left;
+  width: 50%
+}
+
+.container2 img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+}
+
+.container3 {
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.container p {
+  font-size: 16px;
+}
+
+.footer {
+  clear:both;
+  background-color: #111111;
+}
+
+.footer p {
+  color: #F0F0F0;
+}
+
+.fa {
+  color: #F0F0F0;
+  margin: 5px;
+}
+.fa:hover {
+  color: black;
+}
+
+/** Items for background overlay */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered p {
+  font-family: "oswald";
+  letter-spacing: 0.13rem;
+  font-size: 1rem;
+}
+
+.full-width-height {
+  width: 100%;
+  height: 100%
+}
+
+.overlay {
+  opacity: 0;
+  transition: opacity 200ms linear;
+}
+
+.image_holder {
+  position: relative;
+}
+
+.image_holder:hover .overlay {
+  opacity: 0.95;
+  transition: opacity 200ms linear;
+}
+
+/** Items for About page*/
+
+
+.about_container {
+  width: 75%;
+  padding-top: 5%;
+  margin: 0 auto;
+  padding-bottom: 50%;
+}
+
+.heading{
+  width: 50%;
+  float: left;
+}
+
+.heading h1 {
+  line-height: 80px;
+  font-size: 3.2rem;
+}
+
+.about_content {
+  float: left;
+  width: 50%;
+}
+
+.btn {
+  background-color: none;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #9C3939;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  font-family: "oswald";
+  letter-spacing: 0.1rem;
+}
+
+.btn:hover {
+  background-color: #9C3939;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color:#9C3939
+}
+
+a:hover {
+  color:#9C3939 ;
+}
+
+/** Media Queries */
+
+@media screen and (max-width: 800px) {
+  .name {
+    float: none;
+    text-align: center;
+  }
+  .links {
+    float: none;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .nav_container {
+    width: 100%;
+  }
+  .container {
+    width: 90%;
+  }
+  .container2 {
+    width: 100%;
+    float: none;
+  }
+  .heading {
+    width: 100%;
+    text-align: center;
+  }
+  .about_content {
+    width: 100%;
+    text-align: center;
+  }
+{

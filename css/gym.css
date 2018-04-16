@@ -406,7 +406,7 @@ a {
 .research_container {
   text-align: left;
   margin: 0 auto;
-  width: 60%;
+  width: 40%;
 }
 
 .survey_findings {
@@ -572,6 +572,7 @@ a {
 .prototype {
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 640px) {
