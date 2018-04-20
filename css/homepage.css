@@ -29,7 +29,7 @@ html, body {
 
 .links a {
   text-decoration: none;
-  font-family: "oswald";
+  font-family: 'Oswald', sans-serif;
   padding: 20px;
   vertical-align: center;
   color: #333;
@@ -51,7 +51,7 @@ html, body {
 
 .container {
   margin: 0 auto;
-  width: 58%;
+  max-width: 58%;
   text-align: center;
 }
 
@@ -65,7 +65,7 @@ html, body {
 
 h1 {
   font-size: 3.2rem;
-  font-family: "oswald";
+  font-family: 'Oswald', sans-serif;
   font-weight: 400;
   letter-spacing: 0.25rem;
 }
@@ -80,7 +80,7 @@ h2 {
 }
 
 p {
-  font-family: "raleway";
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   color: #333;
   line-height: 1.625em;
@@ -93,7 +93,7 @@ p {
 
 .container .scroll {
   color: grey;
-  font-family: "oswald";
+  font-family: 'Oswald', sans-serif;
   letter-spacing: 0.1rem;
   font-size: 14px;
 }
@@ -108,7 +108,7 @@ p {
 
 .container2 {
   float: left;
-  width: 50%
+  max-width: 50%
 }
 
 .container2 img {
@@ -120,13 +120,13 @@ p {
 .container3 {
   margin: 0 auto;
   text-align: center;
-  width: 70%;
+  max-width: 70%;
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
 .container p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .footer {
@@ -156,7 +156,7 @@ p {
 }
 
 .centered p {
-  font-family: "oswald";
+  font-family: 'Oswald', sans-serif;
   letter-spacing: 0.13rem;
   font-size: 1rem;
 }
@@ -184,7 +184,7 @@ p {
 
 
 .about_container {
-  width: 75%;
+  max-width: 75%;
   padding-top: 5%;
   margin: 0 auto;
   padding-bottom: 50%;
@@ -216,7 +216,7 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   transition: 0.3s;
-  font-family: "oswald";
+  font-family: 'Oswald', sans-serif;
   letter-spacing: 0.1rem;
 }
 
@@ -245,6 +245,7 @@ a:hover {
     float: none;
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 40px;
   }
   .nav_container {
     width: 100%;
