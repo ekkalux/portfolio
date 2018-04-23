@@ -102,9 +102,6 @@ p {
   font-size: 14px;
 }
 
-.scroll:hover {
-  color: #333;
-}
 
 .projects {
   width: 100%;
@@ -228,6 +225,8 @@ p {
   background-color: #9C3939;
   color: white;
 }
+
+.btn:focus {outline:0;}
 
 a {
   text-decoration: none;

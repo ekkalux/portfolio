@@ -1,9 +1,10 @@
 $( document ).ready(function() {
 
-  $(".fa-angle-double-down").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".navigation").offset().top},
-        'slow');
+
+$(".fa-arrow-down").click(function() {
+  $('html,body').animate({
+      scrollTop: $(".summary").offset().top},
+      'slow');
 });
 
 $("#summary").click(function() {
@@ -42,11 +43,6 @@ $("#reflection").click(function() {
       'slow');
 });
 
-$(".fa-angle-double-up ").click(function() {
-  $('html,body').animate({
-      scrollTop: $(".hero").offset().top},
-      'slow');
-});
 
 $(function(){
         // Check the initial Poistion of the Sticky Header
