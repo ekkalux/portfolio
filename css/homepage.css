@@ -3,6 +3,10 @@ html, body {
   padding: 0;
 }
 
+.img {
+  max-width: 100%;
+}
+
 .nav {
   padding-top: 4rem;
   z-index: 2000;
@@ -114,7 +118,7 @@ p {
 .container2 img {
   background-size: cover;
   background-repeat: no-repeat;
-  width:100%;
+  width: 100%;
 }
 
 .container3 {
@@ -143,7 +147,7 @@ p {
   margin: 5px;
 }
 .fa:hover {
-  color: black;
+  color: yellow;
 }
 
 /** Items for background overlay */

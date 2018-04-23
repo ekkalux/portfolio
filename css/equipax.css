@@ -26,14 +26,17 @@ h1, h2, h3  {
 
 h1 {
   font size: 1.8rem;
-  font-family: "Raleway";
-  font-weight: bold;
+  font-family: "oswald";
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-family: "Raleway";
   margin-bottom: -20px;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -55,6 +58,8 @@ li {
 img {
   width: 100%;
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 img:hover {
@@ -70,6 +75,7 @@ img:hover {
 .list {
   column-gap: 40px;
   column-count: 2;
+  padding: 20px;
 }
 
 
@@ -98,6 +104,16 @@ img:hover {
 
 .hero_ridestarter{
   background-image: url("../images/ridestarterbig.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.hero_simplebox {
+  background-image: url("../images/simpleboxbig.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -193,7 +209,6 @@ img:hover {
   cursor: pointer;
 }
 
-
 /** HERO **/
 
 /** NAVIGATION **/
@@ -233,6 +248,14 @@ img:hover {
 }
 
 /** NAVIGATION **/
+
+/** BOX SHADOWS **/
+
+.shadowbrand img {
+  box-shadow: 0px 2px 5px #888888;
+}
+
+/** BOX SHADOWS **/
 
 /** RESEARCH **/
 
