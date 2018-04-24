@@ -53,7 +53,6 @@ h4 {
   font-family: "oswald";
   font-weight: lighter;
   margin-top: 80px;
-
 }
 
 li {
@@ -376,11 +375,13 @@ blockquote p {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1600px) {
   h1 { font-size: 2rem;}
   h2 {font-size: 1rem;}
   h3 {font-size: 1.5rem;}
   h4 {font-size: 1.5rem;}
   p {font-size: 20px; }
+  li {font-size: 20px; }
+  blockquote {font-size: 18px;}
 
 }
