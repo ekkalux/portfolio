@@ -186,7 +186,7 @@ p {
 
 
 .about_container {
-  width: 75%;
+  max-width: 75%;
   padding-top: 5%;
   margin: 0 auto;
   padding-bottom: 50%;
@@ -272,6 +272,10 @@ a:hover {
     text-align: center;
   }
   .about_container {
-    width: 90%;
+    max-width: 90%;
   }
-{
+}
+
+@media screen and (min-width:900px) {
+
+}
