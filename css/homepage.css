@@ -189,7 +189,7 @@ p {
   max-width: 75%;
   padding-top: 5%;
   margin: 0 auto;
-  padding-bottom: 50%;
+  padding-bottom: 55%;
 }
 
 .heading{
@@ -240,7 +240,7 @@ a:hover {
 
 /** Media Queries */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .name {
     float: none;
     text-align: center;
@@ -277,7 +277,7 @@ a:hover {
 }
 
 @media screen and (min-width: 1600px) {
-  h1 {font-size: 3.4rem;}
+  h1 {font-size: 3.6rem;}
   h2 {font-size: 14px;}
   p {font-size: 20px;}
   .center p {font-size:1.2rem;}
