@@ -375,7 +375,7 @@ blockquote p {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1680px) {
   h1 { font-size: 2rem;}
   h2 {font-size: 1rem;}
   h3 {font-size: 1.5rem;}
@@ -383,5 +383,5 @@ blockquote p {
   p {font-size: 20px; }
   li {font-size: 20px; }
   blockquote {font-size: 18px;}
-
-}
+  .container {max-width: 60%;}
+  .footer p {font-size: 14px;}
