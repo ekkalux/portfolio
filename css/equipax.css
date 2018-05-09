@@ -14,7 +14,7 @@ body {
 }
 
 p {
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #333;
   font-weight: 300;
@@ -58,6 +58,7 @@ h4 {
 li {
   margin-bottom: 1rem;
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -83,8 +84,6 @@ img:hover {
   column-count: 2;
   padding: 20px;
 }
-
-
 
 /** HERO **/
 
