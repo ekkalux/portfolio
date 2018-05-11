@@ -68,11 +68,6 @@ img {
   margin-bottom: 20px;
 }
 
-img:hover {
-  opacity: 0.8;
-  z-index: -111;
-}
-
 .container {
   max-width: 55%;
   margin: 0 auto;
